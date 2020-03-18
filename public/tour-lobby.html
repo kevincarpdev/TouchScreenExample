@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+<!-- you can use your own animation library and css3 classes -->
+<link rel="stylesheet" href="vendor/ipanorama/effect.css">
+<!-- ipanorama styles -->
+<link rel="stylesheet" href="vendor/ipanorama/ipanorama.css">
+<link rel="stylesheet" href="vendor/ipanorama/ipanorama.theme.default.css">
+<link rel="stylesheet" href="vendor/ipanorama/ipanorama.theme.modern.css">
+<link rel="stylesheet" href="vendor/ipanorama/ipanorama.theme.dark.css">
+
+<title>lobby virtual tour</title>
+<!-- /end ipanorama styles -->
+<!-- main style -->
+<style>
+#mypanorama {
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+</style>
+<!-- /end main style -->
+</head>
+<body>
+
+<div id="mypanorama"></div>
+
+<script src="vendor/ipanorama/jquery.min.js"></script>
+<script src="vendor/ipanorama/three.min.js"></script>
+<script src="vendor/ipanorama/jquery.ipanorama.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$("#mypanorama").ipanorama({
+  "theme": "ipnrm-theme-default",
+  "imagePreview": "images/virtual-tours/splash/lobby.jpg",
+  "autoLoad": true,
+  "autoRotate": false,
+  "autoRotateSpeed": 0.001,
+  "autoRotateInactivityDelay": 3000,
+  "mouseWheelPreventDefault": true,
+  "mouseWheelRotate": false,
+  "mouseWheelRotateCoef": 0.2,
+  "mouseWheelZoom": false,
+  "mouseWheelZoomCoef": 0.05,
+  "hoverGrab": false,
+  "hoverGrabYawCoef": 20,
+  "hoverGrabPitchCoef": 20,
+  "grab": true,
+  "grabCoef": 0.4,
+  "pinchZoom": false,
+  "pinchZoomCoef": 0.1,
+  "showControlsOnHover": false,
+  "showSceneThumbsCtrl": false,
+  "showSceneMenuCtrl": false,
+  "showSceneNextPrevCtrl": false,
+  "showShareCtrl": false,
+  "showZoomCtrl": false,
+  "showFullscreenCtrl": true,
+  "showAutoRotateCtrl": false,
+  "sceneThumbsVertical": true,
+  "sceneThumbsStatic": false,
+  "title": true,
+  "compass": false,
+  "keyboardNav": false,
+  "keyboardZoom": false,
+  "sceneNextPrevLoop": false,
+  "popover": true,
+  "popoverPlacement": "top",
+  "hotSpotBelowPopover": true,
+  "popoverShowTrigger": "hover",
+  "popoverHideTrigger": "leave",
+  "pitchLimits": false,
+  "pitchLimitsTop": 0,
+  "pitchLimitsBottom": 0,
+  "mobile": false,
+  "sceneId": "scene1",
+  "sceneFadeDuration": 1000,
+  "sceneBackgroundLoad": false,
+  "scenes": {
+    "scene1": {
+      "type": "sphere",
+      "cubeTextureCount": "single",
+      "sphereWidthSegments": 100,
+      "sphereHeightSegments": 40,
+      "image": "images/virtual-tours/lobby/01-EntranceFirePlace.jpg",
+      "yaw": 112.69997,
+      "pitch": 0.05197,
+      "title": "Entrance",
+      "titleHtml": false,
+      "titleSelector": null,
+      "hotSpots": [
+        {
+          "yaw": 89.52403288757111,
+          "pitch": 2.1740056988508636,
+          "sceneId": "scene2",
+          "imageUrl": "",
+          "imageWidth": null,
+          "imageHeight": null,
+          "link": null,
+          "linkNewWindow": false,
+          "popoverHtml": true,
+          "popoverContent": null,
+          "popoverSelector": null,
+          "popoverLazyload": true,
+          "popoverShow": false
+        }
+      ]
+    },
+    "scene2": {
+      "type": "sphere",
+      "cubeTextureCount": "single",
+      "sphereWidthSegments": 100,
+      "sphereHeightSegments": 40,
+      "image": "images/virtual-tours/lobby/02-FinWall.jpg",
+      "yaw": -293.224,
+      "pitch": -6.632,
+      "title": "Dining/Lounge",
+      "titleHtml": false,
+      "titleSelector": null,
+      "hotSpots": [
+        {
+          "yaw": 44.519752158219895,
+          "pitch": 1.8782200101922637,
+          "sceneId": "scene3",
+          "imageUrl": "",
+          "imageWidth": null,
+          "imageHeight": null,
+          "link": null,
+          "linkNewWindow": false,
+          "popoverHtml": true,
+          "popoverContent": null,
+          "popoverSelector": null,
+          "popoverLazyload": true,
+          "popoverShow": false
+        },
+        {
+          "yaw": 73.81006545639119,
+          "pitch": 2.08459952170503,
+          "sceneId": "scene4",
+          "imageUrl": "",
+          "imageWidth": null,
+          "imageHeight": null,
+          "link": null,
+          "linkNewWindow": false,
+          "popoverHtml": true,
+          "popoverContent": null,
+          "popoverSelector": null,
+          "popoverLazyload": true,
+          "popoverShow": false
+        },
+        {
+          "yaw": 228.6741078402129,
+          "pitch": -4.649919633254001,
+          "sceneId": "scene1",
+          "imageUrl": "",
+          "imageWidth": null,
+          "imageHeight": null,
+          "link": null,
+          "linkNewWindow": false,
+          "popoverHtml": true,
+          "popoverContent": null,
+          "popoverSelector": null,
+          "popoverLazyload": true,
+          "popoverShow": false
+        }
+      ]
+    },
+    "scene3": {
+      "type": "sphere",
+      "cubeTextureCount": "single",
+      "sphereWidthSegments": 100,
+      "sphereHeightSegments": 40,
+      "image": "images/virtual-tours/lobby/03-Bar.jpg",
+      "yaw": 90.266,
+      "pitch": -12.00398,
+      "title": "Bar",
+      "titleHtml": false,
+      "titleSelector": null,
+      "hotSpots": [
+        {
+          "yaw": 22.2452269324567,
+          "pitch": -2.3080872299472635,
+          "sceneId": "scene2",
+          "imageUrl": "",
+          "imageWidth": null,
+          "imageHeight": null,
+          "link": null,
+          "linkNewWindow": false,
+          "popoverHtml": true,
+          "popoverContent": null,
+          "popoverSelector": null,
+          "popoverLazyload": true,
+          "popoverShow": false
+        },
+        {
+          "yaw": 11.4803195416921,
+          "pitch": -0.49179542615722,
+          "sceneId": "scene1",
+          "imageUrl": "",
+          "imageWidth": null,
+          "imageHeight": null,
+          "link": null,
+          "linkNewWindow": false,
+          "popoverHtml": true,
+          "popoverContent": null,
+          "popoverSelector": null,
+          "popoverLazyload": true,
+          "popoverShow": false
+        }
+      ]
+    },
+    "scene4": {
+      "type": "sphere",
+      "cubeTextureCount": "single",
+      "sphereWidthSegments": 100,
+      "sphereHeightSegments": 40,
+      "image": "images/virtual-tours/lobby/03-Bar.jpg",
+      "yaw": -451.28605,
+      "pitch": -13.13598,
+      "title": "Activity Room",
+      "titleHtml": false,
+      "titleSelector": null,
+      "hotSpots": [
+        {
+          "yaw": 26.572075563825972,
+          "pitch": -1.411858852853152,
+          "sceneId": "scene2",
+          "imageUrl": "",
+          "imageWidth": null,
+          "imageHeight": null,
+          "link": null,
+          "linkNewWindow": false,
+          "popoverHtml": true,
+          "popoverContent": null,
+          "popoverSelector": null,
+          "popoverLazyload": true,
+          "popoverShow": false
+        },
+        {
+          "yaw": 11.271183458438703,
+          "pitch": -0.4821777611991862,
+          "sceneId": "scene1",
+          "imageUrl": "",
+          "imageWidth": null,
+          "imageHeight": null,
+          "link": null,
+          "linkNewWindow": false,
+          "popoverHtml": true,
+          "popoverContent": null,
+          "popoverSelector": null,
+          "popoverLazyload": true,
+          "popoverShow": false
+        }
+      ]
+    }
+  }
+});
+});
+</script>
+</body>
+</html>

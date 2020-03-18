@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Level_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 2268 1404" style="enable-background:new 0 0 2268 1404;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F1F1F1;stroke:#000000;stroke-width:2.0094;stroke-miterlimit:10;}
+	.st1{fill:#D5D5D6;stroke:#000000;stroke-width:2.0094;stroke-miterlimit:10;}
+	.st2{font-family:'ArialMT';}
+	.st3{font-size:22.0152px;}
+	.st4{fill:#FFFFFF;stroke:#000000;stroke-width:2.0094;stroke-miterlimit:10;}
+	.st5{fill:#ECE4CA;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-width:2.0094;stroke-miterlimit:10;}
+	.st7{fill:#323131;}
+	.st8{font-size:11.6351px;}
+	.st9{fill:#FFFFFF;}
+	.st10{font-size:18.0124px;}
+	.st11{letter-spacing:-1;}
+	.building-outline{fill:none;stroke:#000000;stroke-width:3.0141;stroke-miterlimit:10;}
+	.st13{font-size:18.0896px;}
+	.st14{font-size:22.1095px;}
+</style>
+    <polygon class="building-outline" points="183.6,511.5 183.6,618.2 67.6,618.2 67.6,278 950.3,278 950.3,298 1185.3,298 1185.3,280 2204.2,280
+	2204.2,1098.6 1413.3,1098.6 1413.3,1037.2 1342.7,1037.2 1342.7,1101.2 659.4,1101.2 659.4,685.6 604.3,685.6 604.3,624.2
+	529,624.2 529,655.6 467.1,655.6 467.1,592.9 515.5,592.9 515.5,511.5 "/>
+
+    <polygon class="st0" points="1317,280 2204.2,280 2204.2,1098.6 1413.3,1098.6 1413.3,1037.2 1317,1037.2 "/>
+
+    <polygon class="unit" v-on:click="loadUnit('coffee-shop')" points="515.5,511.5 515.5,592.9 467.1,592.9 467.1,655.6 529,655.6 529,624.2 604.3,624.2 604.3,685.6
+	659.4,685.6 659.4,511.5 "/>
+
+    <g>
+	    <text transform="matri(1 0 0 1 915.0674 697.4863)" class="st2 st3">Parking Garage</text>
+    </g>
+    <g>
+	    <text transform="matrix(1 0 0 1 553.5288 563.3201)"><tspan x="0" y="0" class="st2 st3">Coffee </tspan><tspan x="6.7" y="22.4" class="st2 st3">Shop</tspan></text>
+    </g>
+
+    <polygon class="st1" points="2204.2,491.1 1540.8,491.1 1505.8,525.7 1505.8,555.7 1525.3,555.7 1525.3,593.5 1568.4,593.5
+	1568.4,771.6 1525.3,771.6 1525.3,823.9 1503.5,823.9 1503.5,852.6 1538.9,887.7 1567.3,887.7 1567.3,904.4 2077.7,904.4
+	2077.7,861.7 2204.2,861.7 "/>
+
+    <rect class="unit" :class="setLayerClass(248)" v-on:click="loadUnit(248)" x="1302.1" y="280" width="71.4" height="102.9"/>
+    <g class="units">
+        <g>
+	<text transform="matrix(1 0 0 1 1319.5107 336.3657)" class="st2 st3">248</text>
+</g>
+        <rect class="unit" :class="setLayerClass(232)" v-on:click="loadUnit('232')" x="1373.4" y="280" width="112.6" height="102.9"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1410.1289 336.8662)" class="st2 st3">232</text>
+</g>
+        <rect class="unit" :class="setLayerClass(234)" v-on:click="loadUnit('234')" x="1485.7" y="280" width="83.5" height="102.9"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1511.1699 336.1987)" class="st2 st3">234</text>
+</g>
+        <rect class="unit" :class="setLayerClass(236)" v-on:click="loadUnit('236')" x="1604.2" y="280" width="112.9" height="102.9"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1643.1465 336.8662)" class="st2 st3">236</text>
+</g>
+        <rect class="unit" :class="setLayerClass(238)" v-on:click="loadUnit('238')" x="1716.7" y="280" width="73.7" height="102.9"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1736.4531 336.0322)" class="st2 st3">238</text>
+</g>
+        <rect class="unit" :class="setLayerClass(240)" v-on:click="loadUnit('240')" x="1790.3" y="280" width="72.3" height="102.9"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1809.0811 336.0322)" class="st2 st3">240</text>
+</g>
+        <rect class="unit" :class="setLayerClass(242)" v-on:click="loadUnit('242')" x="1862.6" y="280" width="112.3" height="102.9"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1901.3799 336.8662)" class="st2 st3">242</text>
+</g>
+        <rect class="unit" :class="setLayerClass(244)" v-on:click="loadUnit('244')" x="1974.4" y="280" width="113" height="102.9"/>
+        <g>
+	<text transform="matrix(1 0 0 1 2013.3496 336.8662)" class="st2 st3">244</text>
+</g>
+        <rect class="unit" :class="setLayerClass(246)" v-on:click="loadUnit('246')" x="2087.4" y="280" width="116.8" height="102.9"/>
+        <g>
+	<text transform="matrix(1 0 0 1 2129.3525 336.8662)" class="st2 st3">246</text>
+</g>
+        <rect class="unit" :class="setLayerClass(235)" v-on:click="loadUnit('235')" x="1604.2" y="408.6" width="112.9" height="100.8"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1644.1562 465.9551)" class="st2 st3">235</text>
+</g>
+        <rect class="unit" :class="setLayerClass(237)" v-on:click="loadUnit('237')" x="1716.7" y="408.5" width="73.7" height="101"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1736.4531 465.1216)" class="st2 st3">237</text>
+</g>
+        <rect class="unit" :class="setLayerClass(239)" v-on:click="loadUnit('239')" x="1790.3" y="408.5" width="72.5" height="101"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1810.0898 465.1216)" class="st2 st3">239</text>
+</g>
+        <rect class="unit" :class="setLayerClass(231x)" v-on:click="loadUnit('241')" x="1862.9" y="408.5" width="72.4" height="101"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1882.7188 465.1216)" class="st2 st3">241</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('243')" x="1935.6" y="408.5" width="72" height="101"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1954.3389 465.1216)" class="st2 st3">243</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('245')" x="2007.2" y="408.5" width="72.7" height="101"/>
+        <g>
+	<text transform="matrix(1 0 0 1 2025.958 465.1216)" class="st2 st3">245</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('247')" x="2101.2" y="437.3" width="102.9" height="70.9"/>
+        <g>
+	<text transform="matrix(1 0 0 1 2135.5732 477.4629)" class="st2 st3">247</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('203')" x="2005.2" y="867.4" width="72.5" height="101"/>
+        <g>
+	<text transform="matrix(1 0 0 1 2022.9316 924.1045)" class="st2 st3">203</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('205')" x="1932.5" y="867.4" width="72.5" height="101"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1950.3037 924.1045)" class="st2 st3">205</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('207')" x="1859.9" y="867.4" width="72.5" height="101"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1877.6748 924.1045)" class="st2 st3">207</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('209')" x="1754.9" y="867.4" width="82.7" height="101"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1777.8105 924.1045)" class="st2 st3">209</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('211')" x="1682.4" y="867.4" width="72.5" height="101"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1700.8125 924.1045)" class="st2 st3">211</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('213')" x="1567.3" y="867.9" width="115.5" height="100.8"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1604.8135 925.2715)" class="st2 st3">213</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('212')" x="1641.6" y="994.2" width="113.8" height="104.7"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1679.46 1051.3584)" class="st2 st3">212</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('214')" x="1570" y="994.2" width="71.5" height="104.7"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1589.0098 1052.6934)" class="st2 st3">214</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('210')" x="1755.6" y="994.2" width="71.5" height="104.7"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1774.6162 1052.6934)" class="st2 st3">210</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('208')" x="1861.5" y="994.2" width="113.8" height="104.7"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1899.3623 1051.3584)" class="st2 st3">208</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('206')" x="1975.5" y="994.2" width="113.8" height="104.7"/>
+        <g>
+	<text transform="matrix(1 0 0 1 2013.3496 1051.3584)" class="st2 st3">206</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('204')" x="2089.5" y="994.2" width="114.7" height="104.7"/>
+        <g>
+	<text transform="matrix(1 0 0 1 2128.3447 1051.3584)" class="st2 st3">204</text>
+</g>
+        <rect class="unit" v-on:click="loadUnit('202')" x="2100.2" y="897.6" width="103.9" height="70.9"/>
+        <g>
+	<text transform="matrix(1 0 0 1 2134.5645 937.7803)" class="st2 st3">202</text>
+</g>
+        <path class="unit" v-on:click="loadUnit('201')" d="M2204.2,762.7H2089v78.1h-11.3v20.9h126.5C2204.2,861.7,2204.7,762.7,2204.2,762.7z"/>
+        <g>
+	<text transform="matrix(1 0 0 1 2131.875 818.3652)" class="st2 st3">201</text>
+</g>
+    </g>
+
+    <g class="common-spaces">
+        <text transform="matrix(1.008 0 0 1 1366.4219 912.9971)" class="st7 st2 st8">LIFT</text>
+        <text transform="matrix(1.008 0 0 1 1428.8203 1028.3428)"><tspan x="0" y="0" class="st9 st2 st10">HEA</tspan><tspan x="37" y="0" class="st9 st2 st10 st11">L</tspan><tspan x="45.7" y="0" class="st9 st2 st10">THY</tspan></text>
+        <text transform="matrix(1.008 0 0 1 1434.54 1049.957)" class="st9 st2 st10">CHOICE</text>
+        <text transform="matrix(1.008 0 0 1 1445.6338 1071.5732)" class="st9 st2 st10">CAFE</text>
+        <text transform="matrix(1.008 0 0 1 1494.3857 937.4521)" class="st9 st2 st10">SALON</text>
+        <text transform="matrix(1.008 0 0 1 1433.8506 801.1885)" class="st9 st2 st10">LIVING</text>
+        <text transform="matrix(1.008 0 0 1 1435.375 822.8027)" class="st9 st2 st10">ROOM</text>
+        <text transform="matrix(1.008 0 0 1 1460.9766 687.9082)" class="st9 st2 st10">POOL</text>
+        <text transform="matrix(1.008 0 0 1 1327.9395 517.1509)" class="st9 st2 st10">OFFICE</text>
+        <text transform="matrix(1.008 0 0 1 1324.9082 582.6978)" class="st9 st2 st10">FITNESS</text>
+        <text transform="matrix(1.008 0 0 1 1328.9385 604.313)" class="st9 st2 st10">STUDIO</text>
+        <text transform="matrix(1.008 0 0 1 1469.1484 449.2798)" class="st9 st2 st10">FITNESS</text>
+        <text transform="matrix(1.008 0 0 1 1470.165 470.8945)" class="st9 st2 st10">CENTER</text>
+        <text transform="matrix(1.008 0 0 1 1346.7822 688.7759)"><tspan x="0" y="0" class="st9 st2 st10">A</tspan><tspan x="12" y="0" class="st9 st2 st10">R</tspan><tspan x="24.7" y="0" class="st9 st2 st10">T</tspan></text>
+        <text transform="matrix(1.008 0 0 1 1330.3145 710.3906)" class="st9 st2 st10">STUDIO</text>
+	    <text transform="matrix(1 0 0 1 1740.3584 687.6167)"><tspan x="0" y="0" class="st2 st3">South Courtyard Terrace</tspan><tspan x="38.5" y="22.4" class="st2 st3">Lawn &amp; Sundeck</tspan></text>
+    </g>
+        <g class="unit-labels">
+        <text transform="matrix(1.008 0 0 1 1462.2051 687.3589)" class="st9 st2 st13">POOL</text>
+	<text transform="matrix(1 0 0 1 1323.3662 585.2417)"><tspan x="0" y="0" class="st2 st14">Fitness </tspan><tspan x="4.3" y="22.5" class="st2 st14">Studio</tspan></text>
+            <rect x="1317" y="483.5" class="st1" width="83.4" height="54.4"/>
+	<text transform="matrix(1 0 0 1 1329.1152 518.8213)" class="st2 st14">Office</text>
+            <rect x="1317" y="637.7" class="st1" width="83.4" height="126"/>
+	<text transform="matrix(1 0 0 1 1343.8623 697.7236)"><tspan x="0" y="0" class="st2 st14">Art </tspan><tspan x="-17.2" y="22.5" class="st2 st14">Studio</tspan></text>
+            <rect x="1317" y="763.7" class="st1" width="83.4" height="158.5"/>
+	<text transform="matrix(1 0 0 1 1326.6543 837.6973)"><tspan x="0" y="0" class="st2 st14">Virtual </tspan><tspan x="-0.6" y="22.5" class="st2 st14">Sports</tspan></text>
+            <rect x="1426.1" y="592.8" class="st1" width="142.3" height="178.8"/>
+	<text transform="matrix(1 0 0 1 1476.1953 693.0151)" class="st2 st14">Pool</text>
+            <rect x="1413.3" y="992" class="st1" width="121.4" height="106.9"/>
+            <rect x="1228.9" y="1038.2" class="st1" width="113.5" height="63.1"/>
+	<text transform="matrix(1 0 0 1 1453.8967 1053.8793)" class="st2 st14">Cafe</text>
+            <polygon class="st1" points="1503.5,852.3 1426.1,852.3 1426.1,771.6 1525.3,771.6 1525.3,823.9 1503.5,823.9 "/>
+	<text transform="matrix(1 0 0 1 1440.2646 798.6611)"><tspan x="0" y="0" class="st2 st14">Living </tspan><tspan x="-0.6" y="22.5" class="st2 st14">Room</tspan></text>
+            <polygon class="st1" points="1522.3,871.3 1449.5,942.4 1473.3,968.7 1567.3,968.7 1567.3,887.7 1538.9,887.7 "/>
+	<text transform="matrix(1 0 0 1 1495.3523 927.4891)"><tspan x="0" y="0" class="st2 st14">Salon/</tspan><tspan x="11.7" y="22.5" class="st2 st14">Spa</tspan></text>
+            <polygon class="st1" points="1426.1,463.9 1480.2,409.9 1571.6,409.9 1571.6,491.1 1540.8,491.1 1511.5,520.2 1494.7,504.2
+	1426.1,504.2 "/>
+	<text transform="matrix(1 0 0 1 1470.6387 453.0728)"><tspan x="0" y="0" class="st2 st14">Fitness </tspan><tspan x="2.5" y="22.5" class="st2 st14">Center</tspan></text>
+	<text transform="matrix(1 0 0 1 1252.6074 1077.3838)" class="st2 st3">Library</text>
+            <polygon class="st1" points="1426.1,504.2 1426.1,592.8 1525.3,592.8 1525.3,555.7 1506.3,555.7 1506.3,525.7 1511.6,520.4
+	1495,504.2 "/>
+	<text transform="matrix(1 0 0 1 1434.5645 545.2959)"><tspan x="0" y="0" class="st2 st14">Locker </tspan><tspan x="-1.8" y="22.5" class="st2 st14">Rooms</tspan></text>
+        </g>
+
+</svg>

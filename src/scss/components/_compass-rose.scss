@@ -1,0 +1,29 @@
+//
+// Compass Rose
+//
+
+// Component
+.c-compass-rose {
+    display: none;
+
+    @include media-breakpoint-up(sm) {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 100px;
+        height: auto;
+        overflow: hidden;
+        z-index: 3;
+    }
+
+    @include media-breakpoint-up(lg) {
+        width: 200px;
+        top: 0;
+        right: 0;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        width: 320px;
+    }
+}

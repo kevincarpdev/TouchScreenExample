@@ -1,0 +1,59 @@
+//
+// App
+//
+
+html {
+    font-size: ($font-size-root * 0.85);
+
+    background: $body-bg;
+
+    @include media-breakpoint-up(sm) {
+        font-size: ($font-size-root * 0.9);
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: $font-size-root;
+    }
+}
+
+body,
+html,
+.o-app {
+    min-height: 100vh;
+    height: 100%;
+}
+
+.o-app {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    background-color: $body-container-color;
+
+    &[v-cloak] {
+        opacity: 0;
+    }
+
+    &:not([v-cloak]) {
+        animation: fadeIn $animation-xshort ease-in-out 0s 1 forwards;
+    }
+
+    &__navbar {
+        @include media-breakpoint-up (sm) {
+            display: none;
+        }
+    }
+}
+
+// [v-cloak] {
+//     display: none !important;
+// }
+
+.fancybox-container .fancybox-inner .fancybox-toolbar [data-fancybox-share] {
+    display: none;
+}
+
+.fancybox-container .fancybox-inner .fancybox-toolbar [data-fancybox-fullscreen] {
+    display: none;
+}

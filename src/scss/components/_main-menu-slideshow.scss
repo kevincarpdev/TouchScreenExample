@@ -1,0 +1,30 @@
+//
+// Main Menu Slideshow
+//
+
+// Component
+.c-main-menu-slideshow {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+
+    &__slide {
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        height: 100vh;
+    }
+
+    &__caption {
+        position: absolute;
+        right: 0;
+        bottom: $gutter;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: $spacer $gutter;
+
+        font-family: $font-family-sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        color: #fff;
+    }
+}

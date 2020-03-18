@@ -1,0 +1,108 @@
+//
+// Main Menu
+//
+
+// Config
+$menu-padding: 20px;
+
+// Object
+.o-menu {
+    display: none;
+
+    background-color: #00717C;
+    padding: 0 !important;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 3;
+
+    @include media-breakpoint-up(sm) {
+        display: block;
+    }
+
+    @include shadow(4);
+
+    // Logo in shaded box
+    &__logo {
+        padding: $menu-padding;
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    // Main menu navigation items (two levels deep)
+    &__nav {
+
+        ul {
+            li {
+
+                border-bottom: 1px solid #ccc;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+
+                // Menu item
+                a {
+                    display: block;
+                    padding: ($menu-padding * 0.75) $menu-padding;
+
+                    font-size: 12px;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    color: #F57F29;
+                    background-color: #fff;
+
+                    @include media-breakpoint-up (lg) {
+                        font-size: 15px;
+                        padding: ($menu-padding * 0.75) $menu-padding;
+                    }
+
+                    // Menu item active state
+                    &.router-link-active {
+                        color: #fff;
+                        background-color: #D3622C;
+                    }
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+
+                // Submenu
+                ul {
+                    display: none;
+
+                    // If the menu is active, display it
+                    &.is-active {
+                        display: block;
+                    }
+
+                    li {
+                        border-bottom: 1px solid darken(#F57F29, 10%);
+
+                        &:first-child {
+                            border-top: 1px solid darken(#F57F29, 10%);
+                        }
+
+                        a {
+                            color: #fff;
+                            background-color: #F57F29;
+                            padding: ($menu-padding * 0.4) $menu-padding;
+
+                            &.router-link-active {
+                                color: #fff;
+                                background-color: #D3622C;
+                            }
+                            &:hover {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

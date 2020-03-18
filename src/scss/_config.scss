@@ -1,0 +1,230 @@
+//
+// Config
+//
+
+$debug: false;
+$enable-flex: false;
+$enable-grid-classes: true;
+
+//
+// Grid
+// --------------------------------------------------
+
+// Grid breakpoints
+//
+// Define the minimum and maximum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+    xs: 0,        // Extra small screen / phone
+    sm: 544px,    // Small screen / phone
+    md: 768px,    // Medium screen / tablet
+    lg: 992px,    // Large screen / desktop
+    xl: 1200px,   // Extra large screen / wide desktop
+    xxl: 1400px   // Very large displays
+);
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+    sm: 576px,
+    md: 720px,
+    lg: 940px,
+    xl: 1140px,
+);
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns: 12;
+$grid-gutter-width: 1.875rem; // 30px
+
+//
+// Colors
+// --------------------------------------------------
+
+// Main color palette
+$purple: #90007c;
+$blue: #2A9BD4;
+$blue-light: #6CB9E0;
+$green: #92C21E;
+$yellow: #f0ad4e;
+$orange: #FF9C00;
+$red: #C35151;
+
+// Main UI colors
+$brown: #A3523A;
+$gray: #30353a;
+
+// Grayscale
+$gray-darker: #051720;
+$gray-dark: #092736;
+$gray-light: #9aa3a7;
+$gray-lighter: #eaedee;
+$gray-lightest: #f6f8f9;
+
+// UI aliases
+$ui-primary: $brown;
+$ui-secondary: $gray;
+$ui-accent: $blue-light;
+$ui-success: $green;
+$ui-info: $blue-light;
+$ui-warning: $orange;
+$ui-danger: $red;
+$ui-gray: $gray;
+
+$facebook: #3b5998;
+$twitter: #00aced;
+
+// Spacing
+//
+// Control th styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+
+$spacer: 1rem;
+$spacer-x: $spacer;
+$spacer-y:  $spacer;
+$border-width: .0625rem;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: #cdcdcd;
+$body-color: $gray-dark;
+
+$body-max-width: 1400px;
+$body-container-color: #fff;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color: $ui-primary;
+$link-decoration: none;
+$link-hover-color: darken($link-color, 15%);
+$link-hover-decoration: none;
+
+//
+// Typography
+// --------------------------------------------------
+
+$font-family-sans-serif: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif: "Merriweather", Georgia, serif;
+$font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-base: $font-family-sans-serif;
+
+$primary-font-url: 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,500,700,900';
+$secondary-font-url: 'https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,900';
+
+// Font weights
+// NOTE: These will need to be tweaked based on the current font.
+$font-weight-thin: 100;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-ultra-bold: 900;
+
+$font-weight-base: $font-weight-normal;
+
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+$font-size-root: 16px;
+
+$font-size-base: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-sm: .85rem;
+$font-size-xs: .75rem;
+
+$font-size-h1: 2.25rem;
+$font-size-h2: 2rem;
+$font-size-h3: 1.75rem;
+$font-size-h4: 1.5rem;
+$font-size-h5: 1.25rem;
+$font-size-h6: 1rem;
+
+$display1-size: 6rem;
+$display2-size: 5.5rem;
+$display3-size: 4.5rem;
+$display4-size: 3.5rem;
+
+$display1-weight: $font-weight-light;
+$display2-weight: $font-weight-light;
+$display3-weight: $font-weight-light;
+$display4-weight: $font-weight-light;
+
+$line-height: 1.5;
+
+$headings-margin-bottom: ($spacer / 2);
+$headings-font-family: inherit;
+$headings-font-weight: $font-weight-light;
+$headings-line-height: 1.1;
+$headings-color: inherit;
+
+$lead-font-size: 1.25rem;
+$lead-font-weight: 300;
+
+$text-muted: $gray-light;
+
+$hr-border-color: rgba(0,0,0,.1);
+$hr-border-width: $border-width;
+
+//
+// Animations
+// --------------------------------------------------
+
+$animation-xshort: 125ms;
+$animation-short: 250ms;
+$animation-medium: 500ms;
+$animation-long: 1s;
+$animation-xl: 2s;
+
+//
+// Code
+// --------------------------------------------------
+
+$code-color: $red;
+$code-bg: #f7f7f9;
+$pre-bg: #f7f7f9;
+$pre-color: $gray-dark;
+$pre-border-color: #ccc;
+
+//
+// Border Radiuses
+// --------------------------------------------------
+
+$br-default: 3px;
+$br-button: $br-default;
+$br-input: $br-default;
+$br-table: 0;
+$br-toast: $br-default;
+$br-tooltip: $br-default;
+$br-code: $br-default;
+$br-card: $br-default;
+
+//
+// Z-Index Scale (private vars)
+// --------------------------------------------------
+
+$zIndex-1:   100;
+$zIndex-2:   200;
+$zIndex-3:   300;
+$zIndex-4:   400;
+$zIndex-5:   500;
+$zIndex-6:   600;
+$zIndex-7:   700;
+$zIndex-8:   800;
+$zIndex-9:   900; // #menu-panel
+$zIndex-10: 1000; // #main-header
+$zIndex-11: 2000; // toasts, alerts
+$zIndex-12: 3000; // modal
+
+//
+// Aliases
+// --------------------------------------------------
+
+$gutter: $grid-gutter-width;
+$gutter-fixed: 30px;

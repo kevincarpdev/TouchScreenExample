@@ -1,0 +1,107 @@
+//
+// Unit Detail Page
+//
+
+// Object
+.o-unit {
+    position: relative;
+    padding: $gutter;
+    height: 100%;
+
+    // Header
+    &__header {
+        @include clearfix();
+    }
+
+    // Heading
+    &__heading {
+        float: left;
+        font-family: $font-family-serif;
+        font-size: 30px;
+        color: $gray-dark;
+
+        @include media-breakpoint-up(md) {
+            font-size: 48px;
+        }
+    }
+
+    // Back Button
+    &__back-button {
+        float: right;
+        margin-bottom: 12px;
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: 0;
+        }
+    }
+
+    // Unit info
+    &__info {
+        clear: both;
+        border-top: 1px solid $gray-lighter;
+
+        li {
+            float: left;
+            padding: 6px;
+            border-right: 1px solid $gray-lighter;
+
+            font-family: $font-family-serif;
+            color: $gray-light;
+            font-size: 16px;
+            font-weight: 300;
+
+            @include media-breakpoint-up(lg) {
+                padding: 12px;
+                font-size: 24px;
+            }
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+
+    // Unit details (info)
+    &__details {
+        height: 100%;
+        padding: $gutter 0;
+    }
+
+    // Unit image
+    &__image {
+        text-align: center;
+        margin-bottom: $gutter;
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: 0;
+        }
+
+        img {
+            margin: auto;
+            max-height: calc(100vh - 300px);
+
+            @include media-breakpoint-up(md) {
+                max-height: calc(100vh - 200px);
+            }
+        }
+    }
+
+    // Common Space image
+    &__common-image {
+        text-align: center;
+
+        img {
+            width: 100%;
+            margin: auto;
+        }
+    }
+
+    // Sidebar thumbnails
+    &__thumbnails {
+        margin-bottom: $gutter;
+    }
+}

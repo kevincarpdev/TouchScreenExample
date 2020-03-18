@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+<!-- you can use your own animation library and css3 classes -->
+<link rel="stylesheet" href="vendor/ipanorama/effect.css">
+<!-- ipanorama styles -->
+<link rel="stylesheet" href="vendor/ipanorama/ipanorama.css">
+<link rel="stylesheet" href="vendor/ipanorama/ipanorama.theme.default.css">
+<link rel="stylesheet" href="vendor/ipanorama/ipanorama.theme.modern.css">
+<link rel="stylesheet" href="vendor/ipanorama/ipanorama.theme.dark.css">
+
+<title>Dining virtual tour</title>
+<!-- /end ipanorama styles -->
+<!-- main style -->
+<style>
+#mypanorama {
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+</style>
+<!-- /end main style -->
+</head>
+<body>
+
+<div id="mypanorama"></div>
+
+<script src="vendor/ipanorama/jquery.min.js"></script>
+<script src="vendor/ipanorama/three.min.js"></script>
+<script src="vendor/ipanorama/jquery.ipanorama.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#mypanorama").ipanorama({
+          "theme": "ipnrm-theme-default",
+          "imagePreview": "images/virtual-tours/splash/dining.jpg",
+          "autoLoad": true,
+          "autoRotate": false,
+          "autoRotateSpeed": 0.001,
+          "autoRotateInactivityDelay": 3000,
+          "mouseWheelPreventDefault": true,
+          "mouseWheelRotate": false,
+          "mouseWheelRotateCoef": 0.2,
+          "mouseWheelZoom": false,
+          "mouseWheelZoomCoef": 0.05,
+          "hoverGrab": false,
+          "hoverGrabYawCoef": 20,
+          "hoverGrabPitchCoef": 20,
+          "grab": true,
+          "grabCoef": 0.4,
+          "pinchZoom": false,
+          "pinchZoomCoef": 0.1,
+          "showControlsOnHover": false,
+          "showSceneThumbsCtrl": false,
+          "showSceneMenuCtrl": false,
+          "showSceneNextPrevCtrl": false,
+          "showShareCtrl": false,
+          "showZoomCtrl": false,
+          "showFullscreenCtrl": true,
+          "showAutoRotateCtrl": false,
+          "sceneThumbsVertical": true,
+          "sceneThumbsStatic": false,
+          "title": true,
+          "compass": false,
+          "keyboardNav": false,
+          "keyboardZoom": false,
+          "sceneNextPrevLoop": false,
+          "popover": true,
+          "popoverPlacement": "top",
+          "hotSpotBelowPopover": true,
+          "popoverShowTrigger": "hover",
+          "popoverHideTrigger": "leave",
+          "pitchLimits": false,
+          "pitchLimitsTop": 0,
+          "pitchLimitsBottom": 0,
+          "mobile": false,
+          "sceneId": "scene1",
+          "sceneFadeDuration": 1000,
+          "sceneBackgroundLoad": false,
+          "scenes": {
+            "scene1": {
+              "type": "sphere",
+              "cubeTextureCount": "single",
+              "sphereWidthSegments": 100,
+              "sphereHeightSegments": 40,
+              "image": "/images/virtual-tours/dining/01-Cafe.jpg",
+              "yaw": 111.548,
+              "pitch": -2.772,
+              "zoom": 85,
+              "title": "Cafe",
+              "titleHtml": false,
+              "titleSelector": null,
+              "hotSpots": [
+                {
+                  "yaw": 163.10659117726198,
+                  "pitch": -1.7475599904496641,
+                  "sceneId": "scene2",
+                  "imageUrl": "",
+                  "imageWidth": null,
+                  "imageHeight": null,
+                  "link": null,
+                  "linkNewWindow": false,
+                  "popoverHtml": true,
+                  "popoverContent": null,
+                  "popoverSelector": null,
+                  "popoverLazyload": true,
+                  "popoverShow": false
+                }
+              ]
+            },
+            "scene2": {
+              "type": "sphere",
+              "cubeTextureCount": "single",
+              "sphereWidthSegments": 100,
+              "sphereHeightSegments": 40,
+              "image": "/images/virtual-tours/dining/02-Node-Hallway.jpg",
+              "yaw": 28.066,
+              "pitch": -3.778,
+              "zoom": 85,
+              "title": "Cafe Node",
+              "titleHtml": false,
+              "titleSelector": null,
+              "hotSpots": [
+                {
+                  "yaw": 314.6718281983585,
+                  "pitch": -2.1477780735898486,
+                  "sceneId": "scene1",
+                  "imageUrl": "",
+                  "imageWidth": null,
+                  "imageHeight": null,
+                  "link": null,
+                  "linkNewWindow": false,
+                  "popoverHtml": true,
+                  "popoverContent": null,
+                  "popoverSelector": null,
+                  "popoverLazyload": true,
+                  "popoverShow": false
+                },
+                {
+                  "yaw": 92.24370924092811,
+                  "pitch": -1.13986986468321,
+                  "sceneId": "scene3",
+                  "imageUrl": "",
+                  "imageWidth": null,
+                  "imageHeight": null,
+                  "link": null,
+                  "linkNewWindow": false,
+                  "popoverHtml": true,
+                  "popoverContent": null,
+                  "popoverSelector": null,
+                  "popoverLazyload": true,
+                  "popoverShow": false
+                }
+              ]
+            },
+            "scene3": {
+              "type": "sphere",
+              "cubeTextureCount": "single",
+              "sphereWidthSegments": 100,
+              "sphereHeightSegments": 40,
+              "image": "/images/virtual-tours/dining/03-DiningA.jpg",
+              "yaw": 148.506,
+              "pitch": -10.022,
+              "zoom": 85,
+              "title": "Dining Room",
+              "titleHtml": false,
+              "titleSelector": null,
+              "hotSpots": [
+                {
+                  "yaw": 182.65501969372,
+                  "pitch": -1.1038475594433823,
+                  "sceneId": "scene2",
+                  "imageUrl": "",
+                  "imageWidth": null,
+                  "imageHeight": null,
+                  "link": null,
+                  "linkNewWindow": false,
+                  "popoverHtml": true,
+                  "popoverContent": null,
+                  "popoverSelector": null,
+                  "popoverLazyload": true,
+                  "popoverShow": false
+                },
+                {
+                  "yaw": 87.77287810177143,
+                  "pitch": -0.14161979589028378,
+                  "sceneId": "scene4",
+                  "imageUrl": "",
+                  "imageWidth": null,
+                  "imageHeight": null,
+                  "link": null,
+                  "linkNewWindow": false,
+                  "popoverHtml": true,
+                  "popoverContent": null,
+                  "popoverSelector": null,
+                  "popoverLazyload": true,
+                  "popoverShow": false
+                }
+              ]
+            },
+            "scene4": {
+              "type": "sphere",
+              "cubeTextureCount": "single",
+              "sphereWidthSegments": 100,
+              "sphereHeightSegments": 40,
+              "image": "/images/virtual-tours/dining/04-DiningB.jpg",
+              "yaw": 111.18,
+              "pitch": -1.864,
+              "zoom": 85,
+              "title": "Fine Dining",
+              "titleHtml": false,
+              "titleSelector": null,
+              "hotSpots": [
+                {
+                  "yaw": 99.43673933214693,
+                  "pitch": -0.01322009682495693,
+                  "sceneId": "scene3",
+                  "imageUrl": "",
+                  "imageWidth": null,
+                  "imageHeight": null,
+                  "link": null,
+                  "linkNewWindow": false,
+                  "popoverHtml": true,
+                  "popoverContent": null,
+                  "popoverSelector": null,
+                  "popoverLazyload": true,
+                  "popoverShow": false
+                }
+              ]
+            }
+          }
+    });
+});
+</script>
+</body>
+</html>

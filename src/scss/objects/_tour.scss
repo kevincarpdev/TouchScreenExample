@@ -1,0 +1,158 @@
+//
+// Virtual Tour Wrapper
+//
+
+// Config
+$tour-width: 100%;
+$tour-height: 100%;
+$tour-header-height: 70px;
+$tour-menu-width: 260px;
+$tour-viewport-width: 100%;
+$tour-viewport-title-size: 100px;
+
+// Object
+.o-tour {
+    position: relative;
+    width: $tour-width;
+    height: $tour-height;
+    margin: 0;
+    background-color: $gray;
+
+    // Menu
+    &__menu {
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        display: block;
+        background-color: $ui-secondary;
+        width: $tour-menu-width;
+        height: auto;
+        padding: 0 !important;
+        z-index: 2;
+
+        @include shadow(4);
+
+        // Header
+        &__header {
+            display: block;
+            height: $tour-header-height;
+            padding: 0 $menu-padding;
+            background-color: $ui-accent;
+            overflow: hidden;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            .title {
+                float: left;
+                color: #fff;
+                font-size: 25px;
+                font-weight: $font-weight-thin;
+                text-transform: capitalize;
+                line-height: $tour-header-height;
+                margin-bottom: 0;
+            }
+
+            .burger {
+                float: left;
+                display: inline-block;
+                color: #fff;
+                font-size: 30px;
+                line-height: $tour-header-height;
+                margin-right: 25px;
+            }
+        }
+
+        // Main menu navigation items (two levels deep)
+        &__nav {
+
+            ul {
+                margin-bottom: 7px;
+
+                li {
+
+                    border-bottom: 1px solid #ccc;
+
+                    &:last-child {
+                        border-bottom: none;
+                    }
+
+                    // Menu item
+                    a {
+                        display: block;
+                        padding: ($menu-padding * 0.75) $menu-padding;
+
+                        font-weight: 300;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        color: $ui-secondary;
+                        background-color: #fff;
+
+                        // Active state
+                        &.is-active {
+                            color: darken($ui-accent, 10%);
+                            background-color: $gray-lightest;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Viewport
+    &__viewport {
+        width: $tour-viewport-width;
+        height: $tour-height;
+        background-color: $gray-darker;
+        z-index: 1;
+
+        // Canvas injected by three.js
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: $tour-header-height;
+        }
+
+        // Viewport header
+        &__header {
+            display: block;
+            width: 100%;
+            height: $tour-header-height;
+            padding: 0 30px;
+            background-color: $gray-dark;
+            text-align: right;
+
+            // Title text
+            .title {
+                color: #fff;
+                font-size: 25px;
+                font-weight: $font-weight-thin;
+                text-transform: capitalize;
+                line-height: $tour-header-height;
+            }
+        }
+
+        // Viewport title (fades in/out when loading a new scene)
+        &__title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 80%;
+            margin-top: ($tour-header-height / 2);
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: $tour-viewport-title-size;
+            font-weight: $font-weight-light;
+            text-transform: capitalize;
+            text-align: center;
+            line-height: 600px;
+            z-index: 100;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+        }
+    }
+}

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Level_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 2268 1404" style="enable-background:new 0 0 2268 1404;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F1F1F1;}
+	.st1{fill:#E3E3E4;}
+	.st2{fill:#D5D5D6;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st4{font-family:'ArialMT';}
+	.st5{font-size:22px;}
+	.st6{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+</style>
+
+    <polygon class="building-outline" stroke="#000000" stroke-width="3" fill="none" points="184,511 184,619 68,619 68,279 950.4,279 950.4,299 1185,299 1185,281 2204.2,281 2204.2,1099.6
+	1413.3,1099.6 1413.3,1037.7 1342.7,1037.7 1342.7,1099.6 659.7,1099.6 659.7,686.3 604.5,686.3 604.5,625 529.2,625 529.2,656.3
+	467.4,656.3 467.4,593.7 515.8,593.7 515.8,511 "/>
+    <g class="units" fill="#FFFFFF" fill-rule="nonzero" stroke="#000000">
+    <rect x="1299" y="279.9" :class="setLayerClass(348)" class="unit" v-on:click="loadUnit('348')" width="71.9" height="103.4"/>
+    <rect x="1370.4" y="280.1" :class="setLayerClass(332)" class="unit" v-on:click="loadUnit('332')" width="113.3" height="103.3"/>
+    <g>
+	<text transform="matrix(1 0 0 1 1406.3218 337.3921)" class="st4 st5">332</text>
+    </g>
+        <rect x="1483.2" y="279.9" :class="setLayerClass(334)" class="unit" v-on:click="loadUnit('334')" width="83.8" height="103.4"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1507.7124 336.7251)" class="st4 st5">334</text>
+    </g>
+        <rect x="1602.2" y="280.1" :class="setLayerClass(336)" class="unit" v-on:click="loadUnit('336')" width="113.3" height="103.3"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1638.1187 337.3921)" class="st4 st5">336</text>
+    </g>
+        <rect x="1715" y="279.9" :class="setLayerClass(338)" class="unit" v-on:click="loadUnit('338')" width="74" height="103.4"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1733.7729 336.5586)" class="st4 st5">338</text>
+    </g>
+        <rect x="1788.9" y="279.9" :class="setLayerClass(340)" class="unit" v-on:click="loadUnit('340')" width="72.8" height="103.4"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1806.6519 336.5586)" class="st4 st5">340</text>
+    </g>
+        <rect x="1861.3" y="280.1" :class="setLayerClass(342)" class="unit" v-on:click="loadUnit('342')" width="112.9" height="103.3"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1899.269 337.3921)" class="st4 st5">342</text>
+    </g>
+        <rect x="1973.6" y="280.1" :class="setLayerClass(344)" class="unit" v-on:click="loadUnit('344')" width="113.6" height="103.3"/>
+        <g>
+        <text transform="matrix(1 0 0 1 2011.6245 337.3921)" class="st4 st5">344</text>
+    </g>
+        <rect x="2086.8" y="280.1" :class="setLayerClass(346)" class="unit" v-on:click="loadUnit('346')" width="117.4" height="103.3"/>
+        <g>
+        <text transform="matrix(1 0 0 1 2128.0288 337.3921)" class="st4 st5">346</text>
+    </g>
+        <rect x="1602.2" y="409" :class="setLayerClass(335)" class="unit" v-on:click="loadUnit('335')" width="113.3" height="100.6"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1639.1194 466.3916)" class="st4 st5">335</text>
+    </g>
+        <rect x="1715" y="409" :class="setLayerClass(337)" class="unit" v-on:click="loadUnit('337')" width="74" height="100.6"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1734.7737 465.5586)" class="st4 st5">337</text>
+    </g>
+        <rect x="1788.9" y="409" :class="setLayerClass(339)" class="unit" v-on:click="loadUnit('339')" width="72.8" height="100.6"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1808.6643 465.5586)" class="st4 st5">339</text>
+    </g>
+        <rect x="1861.8" y="409" :class="setLayerClass(341)" class="unit" v-on:click="loadUnit('341')" width="72.6" height="100.6"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1881.5432 465.5586)" class="st4 st5">341</text>
+    </g>
+        <rect x="1934.7" y="409" :class="setLayerClass(342)" class="unit" v-on:click="loadUnit('342')" width="72.3" height="100.6"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1953.4104 465.5586)" class="st4 st5">343</text>
+    </g>
+        <rect x="2006.5" y="409" :class="setLayerClass(345)" class="unit" v-on:click="loadUnit('345')" width="73" height="100.6"/>
+        <g>
+        <text transform="matrix(1 0 0 1 2025.2776 465.5586)" class="st4 st5">345</text>
+    </g>
+        <rect x="2100.9" y="437.7" :class="setLayerClass(347)" class="unit" v-on:click="loadUnit('347')" width="103.2" height="71.8"/>
+        <g>
+        <text transform="matrix(1 0 0 1 2135.2717 477.8916)" class="st4 st5">347</text>
+    </g>
+        <rect x="2004.5" y="867.4" :class="setLayerClass(303)" class="unit" v-on:click="loadUnit('303')" width="72.8" height="101.2"/>
+        <g>
+        <text transform="matrix(1 0 0 1 2024.2421 924.2256)" class="st4 st5">303</text>
+    </g>
+        <rect x="1931.6" y="867.4" :class="setLayerClass(305)" class="unit" v-on:click="loadUnit('305')" width="72.8" height="101.2"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1951.3632 924.2256)" class="st4 st5">305</text>
+    </g>
+        <rect x="1858.8" y="867.4" :class="setLayerClass(307)" class="unit" v-on:click="loadUnit('307')" width="72.8" height="101.2"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1878.4843 924.2256)" class="st4 st5">307</text>
+    </g>
+        <rect x="1753.4" y="867.4" :class="setLayerClass(309)" class="unit" v-on:click="loadUnit('309')" width="83" height="101.2"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1778.2753 924.2256)" class="st4 st5">309</text>
+    </g>
+        <rect x="1680.6" y="867.4" :class="setLayerClass(311)" class="unit" v-on:click="loadUnit('311')" width="72.8" height="101.2"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1701.0116 924.2256)" class="st4 st5">311</text>
+    </g>
+        <rect x="1565.6" y="867.4" :class="setLayerClass(313)" class="unit" v-on:click="loadUnit('313')" width="115.5" height="101.4"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1604.6815 925.3916)" class="st4 st5">313</text>
+    </g>
+        <rect x="1639.7" y="994.2" :class="setLayerClass(312)" class="unit" v-on:click="loadUnit('312')" width="114.2" height="105.3"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1679.5839 1051.3916)" class="st4 st5">312</text>
+    </g>
+        <rect x="1565.6" y="994.2" :class="setLayerClass(314)" class="unit" v-on:click="loadUnit('314')" width="74" height="105.3"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1588.8221 1052.7256)" class="st4 st5">314</text>
+    </g>
+        <rect x="1754.1" y="994.2" :class="setLayerClass(310)" class="unit" v-on:click="loadUnit('310')" width="71.7" height="105.3"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1775.0702 1052.7256)" class="st4 st5">310</text>
+    </g>
+        <rect x="1860.4" y="994.2" :class="setLayerClass(308)" class="unit" v-on:click="loadUnit('308')" width="114.2" height="105.3"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1900.246 1051.3916)" class="st4 st5">308</text>
+    </g>
+        <rect x="1974.7" y="994.2" :class="setLayerClass(306)" class="unit" v-on:click="loadUnit('306')" width="114.2" height="105.3"/>
+        <g>
+        <text transform="matrix(1 0 0 1 2014.6268 1051.3916)" class="st4 st5">306</text>
+    </g>
+        <rect x="2089.1" y="994.2" :class="setLayerClass(304)" class="unit" v-on:click="loadUnit('304')" width="115.1" height="105.3"/>
+        <g>
+        <text transform="matrix(1 0 0 1 2130.0195 1051.3916)" class="st4 st5">304</text>
+    </g>
+        <rect x="2099.9" y="897.7" :class="setLayerClass(302)" class="unit" v-on:click="loadUnit('302')" width="104.3" height="70.8"/>
+        <g>
+        <text transform="matrix(1 0 0 1 2136.2598 937.8916)" class="st4 st5">302</text>
+    </g>
+        <path :class="setLayerClass(301)" class="unit" v-on:click="loadUnit('301')" d="M2204.2,762.9h-115.6v78h-12.5v26.5h128C2204.2,867.4,2204.7,762.9,2204.2,762.9z"/>
+        <g>
+        <text transform="matrix(1 0 0 1 2133.5605 818.5586)" class="st4 st5">301</text>
+    </g>
+        <g>
+        <text transform="matrix(1 0 0 1 1316.7378 336.4111)" class="st4 st5">348</text>
+    </g>
+        <path class="unit" v-on:click="loadUnit('culinary')" d="M1324.5,419.2h70.3V654h-82.2V507h-45.3v-99.5h56.6C1323.9,407.5,1323.4,418.1,1324.5,419.2"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1290.8044 469.242)" class="st4 st5">Culinary</text>
+    </g>
+        <rect x="68.5" y="277.4" :class="setLayerClass(369)" class="unit" v-on:click="loadUnit('369')" width="112.8" height="103.7"/>
+        <g>
+        <text transform="matrix(1 0 0 1 106.2685 335.7259)" class="st4 st5">369</text>
+    </g>
+        <rect x="180.6" y="277.4" :class="setLayerClass(368)" class="unit" v-on:click="loadUnit('368')" width="113.6" height="103.7"/>
+        <g>
+        <text transform="matrix(1 0 0 1 218.624 335.7259)" class="st4 st5">368</text>
+    </g>
+        <rect x="293.8" y="277.4" :class="setLayerClass(366)" class="unit" v-on:click="loadUnit('366')" width="117.2" height="103.7"/>
+        <g>
+        <text transform="matrix(1 0 0 1 335.0283 335.7259)" class="st4 st5">366</text>
+    </g>
+        <rect x="410.9" y="277.9" :class="setLayerClass(364)" class="unit" v-on:click="loadUnit('364')" width="74.8" height="103.2"/>
+        <g>
+        <text transform="matrix(1 0 0 1 429.2812 335.5594)" class="st4 st5">364</text>
+    </g>
+        <rect x="485.3" y="278.1" :class="setLayerClass(362)" class="unit" v-on:click="loadUnit('362')" width="116" height="103.1"/>
+        <g>
+        <text transform="matrix(1 0 0 1 524.4365 336.3929)" class="st4 st5">362</text>
+    </g>
+        <rect x="640.3" y="278.1" :class="setLayerClass(360)" class="unit" v-on:click="loadUnit('360')" width="112.9" height="103.1"/>
+        <g>
+        <text transform="matrix(1 0 0 1 678.2686 336.3929)" class="st4 st5">360</text>
+    </g>
+        <rect x="752.6" y="278.1" :class="setLayerClass(358)" class="unit" v-on:click="loadUnit('358')" width="113.6" height="103.1"/>
+        <g>
+        <text transform="matrix(1 0 0 1 790.624 336.3929)" class="st4 st5">358</text>
+    </g>
+        <polygon :class="setLayerClass(356)" class="unit" v-on:click="loadUnit('356')" points="866.2,381.2 971.3,381.2 971.3,341 950.5,341 950.5,298 950.5,278 866.2,278 "/>
+        <g>
+        <text transform="matrix(1 0 0 1 893.624 336.3929)" class="st4 st5">356</text>
+    </g>
+        <rect x="498.2" y="407.5" :class="setLayerClass(361)" class="unit" v-on:click="loadUnit('361')" width="113.3" height="103.5"/>
+        <g>
+        <text transform="matrix(1 0 0 1 534.1182 465.7254)" class="st4 st5">361</text>
+    </g>
+        <rect x="301.9" y="407.5" :class="setLayerClass(365)" class="unit" v-on:click="loadUnit('365')" width="113.3" height="103.5"/>
+        <g>
+        <text transform="matrix(1 0 0 1 337.8681 465.2254)" class="st4 st5">365</text>
+    </g>
+        <rect x="188.4" y="407.5" :class="setLayerClass(367)" class="unit" v-on:click="loadUnit('367')" width="113.3" height="103.5"/>
+        <g>
+        <text transform="matrix(1 0 0 1 224.3681 465.4754)" class="st4 st5">367</text>
+    </g>
+        <rect x="415" y="407.5" :class="setLayerClass(363)" class="unit" v-on:click="loadUnit('363')" width="83.2" height="103.5"/>
+        <g>
+        <text transform="matrix(1 0 0 1 438.3681 465.7254)" class="st4 st5">363</text>
+    </g>
+        <rect x="68.5" y="397.3" :class="setLayerClass(370)" class="unit" v-on:click="loadUnit('370')" width="99" height="81.9"/>
+        <g>
+        <text transform="matrix(1 0 0 1 98.5351 446.8094)" class="st4 st5">370</text>
+    </g>
+        <rect x="68.5" y="514.5" :class="setLayerClass(371)" class="unit" v-on:click="loadUnit('371')" width="115" height="103.3"/>
+        <g>
+        <text transform="matrix(1 0 0 1 107.1181 573.7254)" class="st4 st5">371</text>
+    </g>
+        <polygon :class="setLayerClass(359)" class="unit" v-on:click="loadUnit('359')" points="664.5,407.5 725,407.5 764.5,447.5 764.5,521 683.5,521 683.5,487 662.9,466.4 662.9,407.5 "/>
+        <g>
+        <text transform="matrix(1 0 0 1 696.2812 469.5594)" class="st4 st5">359</text>
+    </g>
+        <rect x="659.5" y="555" :class="setLayerClass(373)" class="unit" v-on:click="loadUnit('373')" width="105.8" height="70.5"/>
+        <g>
+        <text transform="matrix(1 0 0 1 696.5336 597.0586)" class="st4 st5">373</text>
+    </g>
+        <rect x="659.5" y="625.5" :class="setLayerClass(375)" class="unit" v-on:click="loadUnit('375')" width="105.8" height="70.5"/>
+        <g>
+        <text transform="matrix(1 0 0 1 696.2836 667.5586)" class="st4 st5">375</text>
+    </g>
+        <rect x="659.5" y="696.3" :class="setLayerClass(377)" class="unit" v-on:click="loadUnit('377')" width="105.8" height="70.5"/>
+        <g>
+        <text transform="matrix(1 0 0 1 696.3671 737.3916)" class="st4 st5">377</text>
+    </g>
+        <rect x="659.5" y="766.8" :class="setLayerClass(379)" class="unit" v-on:click="loadUnit('379')" width="105.8" height="70.5"/>
+        <g>
+        <text transform="matrix(1 0 0 1 696.1171 807.8916)" class="st4 st5">379</text>
+    </g>
+        <rect x="794.7" y="575.3" :class="setLayerClass(374)" class="unit" v-on:click="loadUnit('374')" width="101.6" height="71.9"/>
+        <g>
+        <text transform="matrix(1 0 0 1 827.5336 617.3916)" class="st4 st5">374</text>
+    </g>
+        <rect x="794.7" y="647.2" :class="setLayerClass(376)" class="unit" v-on:click="loadUnit('376')" width="101.6" height="71.9"/>
+        <g>
+        <text transform="matrix(1 0 0 1 827.2836 687.8916)" class="st4 st5">376</text>
+    </g>
+        <rect x="794.7" y="719.5" :class="setLayerClass(378)" class="unit" v-on:click="loadUnit('378')" width="101.6" height="71.9"/>
+        <g>
+        <text transform="matrix(1 0 0 1 827.3671 763.7256)" class="st4 st5">378</text>
+    </g>
+        <rect x="794.7" y="791.4" :class="setLayerClass(380)" class="unit" v-on:click="loadUnit('380')" width="101.6" height="71.9"/>
+        <g>
+        <text transform="matrix(1 0 0 1 827.1171 834.2256)" class="st4 st5">380</text>
+    </g>
+        <rect x="659.5" y="894.5" :class="setLayerClass(383)" class="unit" v-on:click="loadUnit('383')" width="105.8" height="70.5"/>
+        <g>
+        <text transform="matrix(1 0 0 1 695.7836 935.5586)" class="st4 st5">383</text>
+    </g>
+        <rect x="659.5" y="837.2" :class="setLayerClass(381)" class="unit" v-on:click="loadUnit('381')" width="105.8" height="57.5"/>
+        <g>
+        <text transform="matrix(1 0 0 1 695.7836 872.2256)" class="st4 st5">381</text>
+    </g>
+        <rect x="794.7" y="863.8" :class="setLayerClass(382)" class="unit" v-on:click="loadUnit('382')" width="101.6" height="112.9"/>
+        <g>
+        <text transform="matrix(1 0 0 1 827.1171 924.8916)" class="st4 st5">382</text>
+    </g>
+        <rect x="865" y="999" :class="setLayerClass(383)" class="unit" v-on:click="loadUnit('383')" width="112.9" height="100.6"/>
+        <g>
+        <text transform="matrix(1 0 0 1 902.3574 1058.2246)" class="st4 st5">383</text>
+    </g>
+        <rect x="659.7" y="999.7" :class="setLayerClass(384)" class="unit" v-on:click="loadUnit('384')" width="112.9" height="99.9"/>
+        <g>
+        <text transform="matrix(1 0 0 1 697.0244 1058.8926)" class="st4 st5">384</text>
+    </g>
+        <rect x="772.3" y="999.7" :class="setLayerClass(385)" class="unit" v-on:click="loadUnit('385')" width="57.3" height="99.9"/>
+        <g>
+        <text transform="matrix(1 0 0 1 782.6909 1058.8926)" class="st4 st5">385</text>
+    </g>
+        <rect x="939.7" y="433.3" :class="setLayerClass(355)" class="unit" v-on:click="loadUnit('355')" width="73.3" height="100.7"/>
+        <g>
+        <text transform="matrix(1 0 0 1 958.0962 488.9023)" class="st4 st5">355</text>
+    </g>
+        <rect x="1013.2" y="433.3" :class="setLayerClass(353)" class="unit" v-on:click="loadUnit('353')" width="112.8" height="100.7"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1050.0132 488.9023)" class="st4 st5">353</text>
+    </g>
+        <rect x="1125.9" y="433.3" :class="setLayerClass(351)" class="unit" v-on:click="loadUnit('351')" width="112.8" height="100.7"/>
+        <g>
+        <text transform="matrix(1 0 0 1 1162.7632 488.9023)" class="st4 st5">351</text>
+    </g>
+        <polygon :class="setLayerClass(350)" class="unit" v-on:click="loadUnit('350')" points="1185,280 1265.2,280 1265.2,380.2 1163,380.2 1163,341.2 1185,341.2 1185,280 "/>
+        <g>
+        <text transform="matrix(1 0 0 1 1204.9878 336.4111)" class="st4 st5">350</text>
+    </g>
+        <path :class="setLayerClass(372)" class="unit" v-on:click="loadUnit('372')" d="M794.8,553.5H875v-30.8l16.9-16.9l-72.8-72.8l-24,24C795.1,457.1,794.1,552.9,794.8,553.5z"/>
+        <g>
+        <text transform="matrix(1 0 0 1 819.085 514.2101)" class="st4 st5">372</text>
+    </g>
+        <polygon :class="setLayerClass(357)" class="unit" v-on:click="loadUnit('357')" points="819.1,433.1 844.5,407.8 939.2,407.8 939.2,488 910.2,488 892.1,506.1 "/>
+        <g>
+        <text transform="matrix(1 0 0 1 870.4805 451.6523)" class="st4 st5">357</text>
+    </g>
+</g>
+    <g class="common-spaces" fill="#D5D5D6" fill-rule="nonzero" stroke="#000000" stroke-width="2">
+        <rect x="467.4" y="592.7" class="st1" width="61.9" height="62.7"/>
+        <rect x="604.5" y="624" class="st1" width="55.1" height="61.3"/>
+        <polygon class="st1" points="1342.7,964.7 1431,964.7 1431,998.3 1450.7,998.3 1450.7,1030.7 1413.3,1030.7 1413.3,1036.7
+	1342.7,1036.7 "/>
+        <rect x="1532.3" y="1023" class="st1" width="33.2" height="76.6"/>
+        <polygon class="st2" points="858,575.3 858,553.5 875,553.5 875,522.8 910,487.8 939.2,487.8 939.2,534 1238.8,534 1238.8,493.3
+	1267.3,493.3 1267.3,507 1312.6,507 1312.6,863 1258,863 1258,998.7 1225.3,998.7 1225.3,1099.6 977.9,1099.6 977.9,999 896,999
+	896,575.3 "/>
+        <polygon class="st1" points="1450.5,435.5 1441.3,444.7 1423.8,427.2 1423.8,407.7 1473.9,407.7 1474,412 "/>
+        <polygon class="st3" points="1567.7,488.7 1538.7,488.7 1503.5,523.8 1503.5,555 1523.3,555 1523.3,822.3 1501.8,822.3
+	1501.8,855.2 1537.7,891 1565.6,891 1565.6,867.4 2077.3,867.4 2077.3,840.9 2088.6,840.9 2088.6,762.9 2204.2,762.9 2204.2,509.6
+	1567.8,509.6 "/>
+        <polygon class="unit" v-on:click="loadUnit('pickle-ball-court')" points="950.4,298 950.4,341 971.3,341 971.3,405.7 1162.7,405.7 1162.7,341.2 1185,341.2 1185,298 "/>
+        <polygon class="unit" v-on:click="loadUnit('north-terrace')" points="515.8,511 515.8,592.7 528.7,592.7 528.7,624 659.3,624 659.3,555 659.3,520.7 683.5,520.7 683.5,487
+	662.9,466.4 611.3,466.4 611.4,511 "/>
+        <polygon class="st2" points="515.8,511 515.8,592.7 528.7,592.7 528.7,624 659.3,624 659.3,555 659.3,520.7 683.5,520.7 683.5,487
+	662.9,466.4 611.3,466.4 611.4,511 "/>
+        <polygon class="st7" points="184,511 184,618 68,618 68,278 950.4,278 950.4,298 1185,298 1185,280 2204.2,280 2204.2,1099.6
+	1413.3,1099.6 1413.3,1036.7 1342.7,1036.7 1342.7,1099.6 659.7,1099.6 659.7,685.3 604.5,685.3 604.5,624 529.2,624 529.2,655.3
+	467.4,655.3 467.4,592.7 515.8,592.7 515.8,511 "/>
+        <polygon class="unit" v-on:click="loadUnit('dining')" points="1450.5,435.5 1423.5,462.8 1423.5,613.4 1523.3,613.4 1523.3,555 1504,555 1504,524.3 1521.5,506.8 "/>
+        <rect x="1423.5" y="613.4" class="unit" v-on:click="loadUnit('bistro')" width="99.8" height="140.2"/>
+        <polygon class="unit" v-on:click="loadUnit('show-kitchen')" points="1342.3,649 1342.3,634.3 1327.7,634.3 1327.7,649 1312.6,649 1312.6,753.6 1394.8,753.6 1394.8,649 "/>
+        <rect x="1312.6" y="753.6" class="unit" v-on:click="loadUnit('grill')" width="210.7" height="68.9"/>
+        <rect x="1225.3" y="998.7" class="unit" v-on:click="loadUnit('piano-lounge')" width="117.4" height="100.9"/>
+        <rect x="1258" y="863" class="unit" v-on:click="loadUnit('bar')" width="54.6" height="135.7"/>
+        <polyline class="unit" v-on:click="loadUnit('club-room')" points="1435.7,822.5 1501.8,822.5 1501.8,855.2 1537.7,891 1565.6,891 1565.6,972.6 1481.4,972.9
+	1435.7,927.3 1435.7,822.5 "/>
+        <rect x="1413.3" y="1030.7" class="unit" v-on:click="loadUnit('theater')" width="119" height="68.9"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1062.3765 785.2047)"><tspan x="0" y="0" class="st4 st5">Center </tspan><tspan x="-15.3" y="22.4" class="st4 st5">Courtyard</tspan></text>
+</g>
+        <g>
+	<text transform="matrix(1 0 0 1 924.3101 785.2047)" class="st4 st5">Garden</text>
+</g>
+        <g>
+	<text transform="matrix(1 0 0 1 1060.5557 1061.2906)" class="st4 st5">Fire Pit</text>
+</g>
+        <g>
+	<text transform="matrix(1 0 0 1 1192.7227 785.2047)"><tspan x="0" y="0" class="st4 st5">Outdoor</tspan><tspan x="8.6" y="22.4" class="st4 st5">Dining</tspan></text>
+</g>
+        <g>
+	<text transform="matrix(1 0 0 1 1192.7227 646.3242)"><tspan x="0" y="0" class="st4 st5">Outdoor </tspan><tspan x="3.1" y="22.4" class="st4 st5">Kitchen</tspan></text>
+</g>
+
+
+        <g>
+	<text transform="matrix(1 0 0 1 1018.652 351.8335)"><tspan x="0" y="0" class="st4 st5">Pickle Ball </tspan><tspan x="23.8" y="22.4" class="st4 st5">Court</tspan></text>
+</g>
+
+        <g>
+	<text transform="matrix(1 0 0 1 559.7195 558.9999)"><tspan x="0" y="0" class="st4 st5">North</tspan><tspan x="-11" y="22.4" class="st4 st5">Terrace</tspan></text>
+</g>
+        <path :class="setLayerClass(353)" class="unit" v-on:click="loadUnit('353')" d="M1521,506.3l17.7-17.7h29.1v-81.3h-71.4v4.7H1474l-23.5,23.5C1450.5,435.5,1521,507.3,1521,506.3z"/>
+        <g>
+	<text transform="matrix(1 0 0 1 1499.2932 454.2077)" class="st4 st5">333</text>
+</g>
+        <g>
+	<text transform="matrix(1 0 0 1 1255.9036 1048.6261)"><tspan x="0" y="0" class="st4 st5">Piano</tspan><tspan x="-8.6" y="22.4" class="st4 st5">Lounge</tspan></text>
+</g>
+        <g>
+	<text transform="matrix(1 0 0 1 1437.2488 1075.7974)" class="st4 st5">Theater</text>
+</g>
+        <g>
+	<text transform="matrix(1 0 0 1 1473.9899 911.9992)"><tspan x="0" y="0" class="st4 st5">Club</tspan><tspan x="-6.7" y="22.4" class="st4 st5">Room</tspan></text>
+</g>
+        <g>
+	<text transform="matrix(1 0 0 1 1268.1934 935.5586)" class="st4 st5">Bar</text>
+</g>
+        <g>
+	<text transform="matrix(1 0 0 1 1391.7811 796.9992)" class="st4 st5">Grill</text>
+</g>
+        <g>
+	<text transform="matrix(1 0 0 1 1327.212 699.3354)"><tspan x="0" y="0" class="st4 st5">Show</tspan><tspan x="-9.2" y="22.4" class="st4 st5">Kitchen</tspan></text>
+</g>
+        <g>
+	<text transform="matrix(1 0 0 1 1446.8828 692.3298)" class="st4 st5">Bistro</text>
+</g>
+        <g>
+	<text transform="matrix(1 0 0 1 1434.8151 545.2073)" class="st4 st5">Dining</text>
+</g>
+    </g>
+</svg>

@@ -1,0 +1,34 @@
+//
+// Text Heading
+//
+
+// Component
+.c-heading {
+    font-family: $font-family-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: $gray-dark;
+
+    @include media-breakpoint-up (md) {
+        font-size: 30px;
+    }
+
+    @include media-breakpoint-up (lg) {
+        font-size: 40px;
+    }
+
+    @include media-breakpoint-up (xl) {
+        font-size: 48px;
+    }
+
+    //
+    // Colors
+    //
+    &--brown {
+        color: $brown;
+    }
+
+    &--gray {
+        color: #6c6c6c;
+    }
+}

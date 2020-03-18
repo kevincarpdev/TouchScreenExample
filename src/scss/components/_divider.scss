@@ -1,0 +1,175 @@
+//
+// Divider
+// Versatile content divider component.
+
+/*
+    Options include:
+
+    SIZES:
+    Default width is 100% of the parent container. Or choose from small, medium and large.
+
+    .c-divider--small
+    .c-divider--medium
+    .c-divider--large
+
+    ALIGNMENT:
+    Default is (inline) left aligned. Choosing .c-divider--left will float the divider to the left.
+
+    .c-divider--left
+    .c-divider--right
+    .c-divider--center
+
+    SPACING:
+    Default spacing is using $gutter, and large is ($gutter * 2).
+
+    .c-divider--spacing-large
+
+    STYLE:
+    Default style is set to solid. Also, choose from dashed or dotted.
+
+    .c-divider--dashed
+    .c-divider--dotted
+
+    THICKNESS:
+    Default thickness is set to 3px. Also, choose from 1px, 5px and 10px.
+
+    .c-divider--thin
+    .c-divider--thick
+    .c-divider--fat
+
+    COLOR:
+    Default color is a light gray. You can also choose from grays (lighter, dark, black, white),
+    the primary and secondary UI colors, light blue, green and red.
+
+    .c-divider--lighter (#ececec)
+    .c-divider--darker ($gray-dark)
+    .c-divider--black (#000)
+    .c-divider--white (#fff)
+    .c-divider--primary ($ui-primary)
+    .c-divider--secondary ($ui-secondary)
+    .c-divider--light-blue ($ui-info)
+    .c-divider--green ($ui-success)
+    .c-divider--red ($ui-danger)
+*/
+
+// Config
+$divider-default-width:     100%;
+$divider-default-margin:    $spacer 0;
+$divider-default-color:     #e6e6e6;
+$divider-default-thickness: 3px;
+$divider-default-style:     solid;
+
+// Component
+.c-divider {
+    width: $divider-default-width;
+    margin: $divider-default-margin;
+    border-bottom: $divider-default-thickness $divider-default-style $divider-default-color;
+
+    //
+    // Modifiers
+    //
+
+    // Size
+
+    &--small {
+        width: rem-calc(50px);
+    }
+
+    &--medium {
+        width: rem-calc(120px);
+    }
+
+    &--large {
+        width: rem-calc(200px);
+    }
+
+    // Alignment
+
+    &--left {
+        float: left;
+    }
+
+    &--right {
+        float: right;
+    }
+
+    &--center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    // Spacing
+
+    &--spacing-large {
+        @include media-breakpoint-up(lg) {
+            margin: ($gutter * 2) auto;
+        }
+    }
+
+    // Style
+
+    &--solid {
+        border-style: solid;
+    }
+
+    &--dashed {
+        border-style: dashed;
+    }
+
+    &--dotted {
+        border-style: dotted;
+    }
+
+    // Thickness
+
+    &--thin {
+        border-width: 1px;
+    }
+
+    &--thick {
+        border-width: 5px;
+    }
+
+    &--fat {
+        border-width: 10px;
+    }
+
+    // Color
+
+    &--lighter {
+        border-color: #ececec;
+    }
+
+    &--darker {
+        border-color: $gray-dark;
+    }
+
+    &--black {
+        border-color: #000;
+    }
+
+    &--white {
+        border-color: #fff;
+    }
+
+    &--primary {
+        border-color: $ui-primary;
+    }
+
+    &--secondary {
+        border-color: $ui-secondary;
+    }
+
+    &--light-blue {
+        border-color: $ui-info;
+    }
+
+    &--green {
+        border-color: $ui-success;
+    }
+
+    &--red {
+        border-color: $ui-danger;
+    }
+
+}

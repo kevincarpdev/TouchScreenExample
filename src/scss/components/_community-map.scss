@@ -1,0 +1,89 @@
+//
+// Map
+//
+
+.c-community-map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  // Map
+  &__map {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    z-index: 2;
+  }
+
+  // Legend
+  &__legend {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+
+    display: block;
+    width: 260px;
+    height: auto;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    overflow: hidden;
+
+    z-index: 3;
+
+    // Title
+    .title {
+      display: block;
+      background-color: #fff;
+      padding: 10px 20px;
+    }
+
+    // List
+    .list {
+      @include reset-list();
+      padding: 0 0 15px 0;
+
+      li {
+        line-height: 40px;
+        padding: 5px 20px;
+
+        span {
+          display: inline-block;
+          font-size: 22px;
+          line-height: 40px;
+          font-weight: 300;
+          color: #fff;
+            transition: all 0.2s;
+        }
+
+        img {
+          height: 40px;
+          margin-right: 10px;
+        }
+          &:hover {
+              cursor: pointer;
+          }
+      }
+    }
+  }
+    #legendList {
+        transition: all 0.2s;
+        li {
+            opacity: 1.0;
+        }
+        &.legendActive {
+            li {
+                opacity: 0.5;
+                &.active {
+                    opacity: 1.0;
+                }
+            }
+        }
+    }
+}

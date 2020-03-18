@@ -1,0 +1,327 @@
+<!doctype html>
+<html>
+<head>
+<!-- you can use your own animation library and css3 classes -->
+<link rel="stylesheet" href="vendor/ipanorama/effect.css">
+<!-- ipanorama styles -->
+<link rel="stylesheet" href="vendor/ipanorama/ipanorama.css">
+<link rel="stylesheet" href="vendor/ipanorama/ipanorama.theme.default.css">
+<link rel="stylesheet" href="vendor/ipanorama/ipanorama.theme.modern.css">
+<link rel="stylesheet" href="vendor/ipanorama/ipanorama.theme.dark.css">
+
+<title>1 bedroom virtual tour</title>
+<!-- /end ipanorama styles -->
+<!-- main style -->
+<style>
+#mypanorama {
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+</style>
+<!-- /end main style -->
+</head>
+<body>
+
+<div id="mypanorama"></div>
+
+<script src="vendor/ipanorama/jquery.min.js"></script>
+<script src="vendor/ipanorama/three.min.js"></script>
+<script src="vendor/ipanorama/jquery.ipanorama.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#mypanorama").ipanorama({
+      "theme": "ipnrm-theme-default",
+      "imagePreview": "images/virtual-tours/splash/1br.jpg",
+      "autoLoad": true,
+      "autoRotate": false,
+      "autoRotateSpeed": 0.001,
+      "autoRotateInactivityDelay": 3000,
+      "mouseWheelPreventDefault": true,
+      "mouseWheelRotate": false,
+      "mouseWheelRotateCoef": 0.2,
+      "mouseWheelZoom": false,
+      "mouseWheelZoomCoef": 0.05,
+      "hoverGrab": false,
+      "hoverGrabYawCoef": 20,
+      "hoverGrabPitchCoef": 20,
+      "grab": true,
+      "grabCoef": 0.4,
+      "pinchZoom": false,
+      "pinchZoomCoef": 0.1,
+      "showControlsOnHover": false,
+      "showSceneThumbsCtrl": false,
+      "showSceneMenuCtrl": false,
+      "showSceneNextPrevCtrl": false,
+      "showShareCtrl": false,
+      "showZoomCtrl": false,
+      "showFullscreenCtrl": true,
+      "showAutoRotateCtrl": false,
+      "sceneThumbsVertical": true,
+      "sceneThumbsStatic": false,
+      "title": true,
+      "compass": false,
+      "keyboardNav": false,
+      "keyboardZoom": false,
+      "sceneNextPrevLoop": false,
+      "popover": true,
+      "popoverPlacement": "top",
+      "hotSpotBelowPopover": true,
+      "popoverShowTrigger": "hover",
+      "popoverHideTrigger": "leave",
+      "pitchLimits": false,
+      "pitchLimitsTop": 0,
+      "pitchLimitsBottom": 0,
+      "mobile": false,
+      "sceneId": "scene1",
+      "sceneFadeDuration": 1000,
+      "sceneBackgroundLoad": false,
+      "scenes": {
+        "scene1": {
+          "type": "sphere",
+          "cubeTextureCount": "single",
+          "sphereWidthSegments": 100,
+          "sphereHeightSegments": 40,
+          "image": "images/virtual-tours/1br/01-Kitchen.jpg",
+          "yaw": 179.92201,
+          "pitch": -13.33797,
+          "title": "Kitchen",
+          "titleHtml": false,
+          "titleSelector": null,
+          "hotSpots": [
+            {
+              "yaw": 91.44324049292821,
+              "pitch": -4.705533530657411,
+              "sceneId": "scene2",
+              "imageUrl": "",
+              "imageWidth": null,
+              "imageHeight": null,
+              "link": null,
+              "linkNewWindow": false,
+              "popoverHtml": true,
+              "popoverContent": null,
+              "popoverSelector": null,
+              "popoverLazyload": true,
+              "popoverShow": false
+            },
+            {
+              "yaw": 125.38353532886555,
+              "pitch": -2.9555302065974973,
+              "sceneId": "scene3",
+              "imageUrl": "",
+              "imageWidth": null,
+              "imageHeight": null,
+              "link": null,
+              "linkNewWindow": false,
+              "popoverHtml": true,
+              "popoverContent": null,
+              "popoverSelector": null,
+              "popoverLazyload": true,
+              "popoverShow": false
+            },
+            {
+              "yaw": 64.55978010429328,
+              "pitch": -3.901411373257873,
+              "sceneId": "scene4",
+              "imageUrl": "",
+              "imageWidth": null,
+              "imageHeight": null,
+              "link": null,
+              "linkNewWindow": false,
+              "popoverHtml": true,
+              "popoverContent": null,
+              "popoverSelector": null,
+              "popoverLazyload": true,
+              "popoverShow": false
+            },
+            {
+              "yaw": 359.8603173831866,
+              "pitch": -4.445345299130063,
+              "sceneId": "scene5",
+              "imageUrl": "",
+              "imageWidth": null,
+              "imageHeight": null,
+              "link": null,
+              "linkNewWindow": false,
+              "popoverHtml": true,
+              "popoverContent": null,
+              "popoverSelector": null,
+              "popoverLazyload": true,
+              "popoverShow": false
+            }
+          ]
+        },
+        "scene2": {
+          "type": "sphere",
+          "cubeTextureCount": "single",
+          "sphereWidthSegments": 100,
+          "sphereHeightSegments": 40,
+          "image": "images/virtual-tours/1br/02-LivingRoom.jpg",
+          "yaw": 467.33601,
+          "pitch": -11.82409,
+          "title": "Living Room",
+          "titleHtml": false,
+          "titleSelector": null,
+          "hotSpots": [
+            {
+              "yaw": 156.70796,
+              "pitch": -6.50001,
+              "sceneId": "scene3",
+              "imageUrl": "",
+              "imageWidth": null,
+              "imageHeight": null,
+              "link": null,
+              "linkNewWindow": false
+            },
+            {
+              "yaw": 237.35197,
+              "pitch": -6.462,
+              "sceneId": "scene1",
+              "imageUrl": "",
+              "imageWidth": null,
+              "imageHeight": null,
+              "link": null,
+              "linkNewWindow": false
+            },
+            {
+              "yaw": 36.16972459334668,
+              "pitch": -5.3995121120489475,
+              "sceneId": "scene4",
+              "imageUrl": "",
+              "imageWidth": null,
+              "imageHeight": null,
+              "link": null,
+              "linkNewWindow": false,
+              "popoverHtml": true,
+              "popoverContent": null,
+              "popoverSelector": null,
+              "popoverLazyload": true,
+              "popoverShow": false
+            }
+          ]
+        },
+        "scene3": {
+          "type": "sphere",
+          "cubeTextureCount": "single",
+          "sphereWidthSegments": 100,
+          "sphereHeightSegments": 40,
+          "image": "images/virtual-tours/1br/03-Den.jpg",
+          "yaw": -250.45999,
+          "pitch": -16.92401,
+          "title": "Den",
+          "titleHtml": false,
+          "titleSelector": null,
+          "hotSpots": [
+            {
+              "yaw": 297.3823962612597,
+              "pitch": -4.575037184995998,
+              "sceneId": "scene1",
+              "imageUrl": "",
+              "imageWidth": null,
+              "imageHeight": null,
+              "link": null,
+              "linkNewWindow": false,
+              "popoverHtml": true,
+              "popoverContent": null,
+              "popoverSelector": null,
+              "popoverLazyload": true,
+              "popoverShow": false
+            },
+            {
+              "yaw": 4.0721108081753,
+              "pitch": -6.000906598605326,
+              "sceneId": "scene2",
+              "imageUrl": "",
+              "imageWidth": null,
+              "imageHeight": null,
+              "link": null,
+              "linkNewWindow": false,
+              "popoverHtml": true,
+              "popoverContent": null,
+              "popoverSelector": null,
+              "popoverLazyload": true,
+              "popoverShow": false
+            }
+          ]
+        },
+        "scene4": {
+          "type": "sphere",
+          "cubeTextureCount": "single",
+          "sphereWidthSegments": 100,
+          "sphereHeightSegments": 40,
+          "image": "images/virtual-tours/1br/04-Bedroom.jpg",
+          "yaw": 93.56401,
+          "pitch": -14.78801,
+          "title": "Bedroom",
+          "titleHtml": false,
+          "titleSelector": null,
+          "hotSpots": [
+            {
+              "yaw": 233.23914367249262,
+              "pitch": -7.277282344094654,
+              "sceneId": "scene2",
+              "imageUrl": "",
+              "imageWidth": null,
+              "imageHeight": null,
+              "link": null,
+              "linkNewWindow": false,
+              "popoverHtml": true,
+              "popoverContent": null,
+              "popoverSelector": null,
+              "popoverLazyload": true,
+              "popoverShow": false
+            },
+            {
+              "yaw": 33.171952934152955,
+              "pitch": -4.6455652881045575,
+              "sceneId": "scene5",
+              "imageUrl": "",
+              "imageWidth": null,
+              "imageHeight": null,
+              "link": null,
+              "linkNewWindow": false,
+              "popoverHtml": true,
+              "popoverContent": null,
+              "popoverSelector": null,
+              "popoverLazyload": true,
+              "popoverShow": false
+            }
+          ]
+        },
+        "scene5": {
+          "type": "sphere",
+          "cubeTextureCount": "single",
+          "sphereWidthSegments": 100,
+          "sphereHeightSegments": 40,
+          "image": "images/virtual-tours/1br/05-Bathroom.jpg",
+          "yaw": 405.99008,
+          "pitch": -13.12002,
+          "title": "Bathroom",
+          "titleHtml": false,
+          "titleSelector": null,
+          "hotSpots": [
+            {
+              "yaw": 267.15300170442947,
+              "pitch": -3.0715175719894434,
+              "sceneId": "scene1",
+              "imageUrl": "",
+              "imageWidth": null,
+              "imageHeight": null,
+              "link": null,
+              "linkNewWindow": false,
+              "popoverHtml": true,
+              "popoverContent": null,
+              "popoverSelector": null,
+              "popoverLazyload": true,
+              "popoverShow": false
+            }
+          ]
+        }
+      }
+    });
+});
+</script>
+</body>
+</html>

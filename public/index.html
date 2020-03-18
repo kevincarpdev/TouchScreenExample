@@ -1,0 +1,451 @@
+<!doctype html>
+<html id="frunt" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <title>Ovation At Riverwalk Touchscreen</title>
+        <meta name="description" content="">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/images/favicon.png">
+
+        <!-- Icons -->
+        <script src="https://use.fortawesome.com/46ce282e.js"></script>
+
+        <!-- Vendor stylesheets -->
+        <link rel="stylesheet" href="/vendor/fancybox/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
+        <!-- Custom stylesheets -->
+        <link rel="stylesheet" href="/css/style.css?v=5">
+    </head>
+    <body>
+        <div class="o-app" v-cloak>
+
+            <nav class="navbar navbar-dark bg-dark o-app__navbar">
+                <a class="navbar-brand" href="/#/main"><img src="/images/Ovation.svg" alt="Ovation at Riverwalk"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><router-link class="nav-link" to="/main">Main Menu</router-link></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Apartments
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <router-link class="dropdown-item" :to="{ name: 'floor', params: { floor: 1 }}">Floor 1</router-link>
+                                <router-link class="dropdown-item" :to="{ name: 'floor', params: { floor: 2 }}">Floor 2</router-link>
+                                <router-link class="dropdown-item" :to="{ name: 'floor', params: { floor: 3 }}">Floor 3</router-link>
+                                <router-link class="dropdown-item" :to="{ name: 'floor', params: { floor: 4 }}">Floor 4</router-link>
+                                <router-link class="dropdown-item" :to="{ name: 'floor', params: { floor: 5 }}">Floor 5</router-link>
+                            </div>
+                        </li>
+<!--                        <li class="nav-item"><router-link class="nav-link" :to="{ name: 'tours'}">Virtual Tours</router-link></li>-->
+                        <li class="nav-item"><router-link class="nav-link" :to="{ name: 'gallery'}">Gallery</router-link></li>
+                        <!--<li class="nav-item"><router-link class="nav-link" :to="{ name: 'amenities'}">Amenities</router-link></li>-->
+                        <li class="nav-item"><router-link class="nav-link" :to="{ name: 'community'}">Community</router-link></li>
+                        <!--<li class="nav-item"><router-link class="nav-link" :to="{ name: 'health'}">Health &amp; Wellness</router-link></li>-->
+<!--                        <li class="nav-item"><router-link class="nav-link" :to="{ name: 'construction'}">Construction Cam</router-link></li>-->
+<!--                        <li class="nav-item"><router-link class="nav-link" :to="{ name: 'about'}">About Sage Life</router-link></li>-->
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container-fluid u-100">
+                <div class="row u-100">
+
+                    <header class="o-menu col-sm-4 col-md-3 col-lg-2 js-menu">
+                        <div class="o-menu__logo">
+                            <img src="/images/Ovation.svg" alt="Ovation At Riverwalk">
+                        </div>
+                        <nav class="o-menu__nav">
+                            <ul>
+                                <li><router-link to="/main">Main Menu</router-link></li>
+                                <li>
+                                    <router-link :to="{ name: 'residences'}">Apartments</router-link>
+                                    <ul :class="[$route.name == 'floor' || $route.name == 'unit' ? 'is-active' : '', 'o-menu__nav__subnav']">
+                                        <li><router-link :to="{ name: 'floor', params: { floor: 1 }}">Floor 1</router-link></li>
+                                        <li><router-link :to="{ name: 'floor', params: { floor: 2 }}">Floor 2</router-link></li>
+                                        <li><router-link :to="{ name: 'floor', params: { floor: 3 }}">Floor 3</router-link></li>
+                                        <li><router-link :to="{ name: 'floor', params: { floor: 4 }}">Floor 4</router-link></li>
+                                        <li><router-link :to="{ name: 'floor', params: { floor: 5 }}">Floor 5</router-link></li>
+                                    </ul>
+                                </li>
+<!--                                <li><router-link :to="{ name: 'tours'}">Virtual Tours</router-link></li>-->
+                                <li><router-link :to="{ name: 'gallery'}">Gallery</router-link></li>
+<!--                                <li><router-link :to="{ name: 'amenities'}">Amenities</router-link></li>-->
+                                <li><router-link :to="{ name: 'community'}">Community</router-link></li>
+<!--                                <li><router-link :to="{ name: 'health'}">Health &amp; Wellness</router-link></li>-->
+<!--                                <li><router-link :to="{ name: 'construction'}">Construction Cam</router-link></li>-->
+<!--                                <li><router-link :to="{ name: 'about'}">About Sage Life</router-link></li>-->
+                            </ul>
+                        </nav>
+                    </header>
+
+                    <main class="o-main col-sm-8 col-md-9 col-lg-10" role="main">
+                        <!-- <a class="o-main__menu-toggle js-menu-toggle" href="#"><i class="fa fa-menu"></i></a> -->
+                        <router-view></router-view>
+                    </main>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Modals -->
+
+        <!-- Quit -->
+        <div class="c-modal c-modal--no-fancybox-styling" id="close-modal">
+            <div class="c-modal__dialog">
+                <div class="c-modal__content">
+                    <div class="c-modal__header">
+                        <h5 class="title">Quit</h5>
+                        <a class="close js-close">
+                            <i class="fa fa-close"></i>
+                        </a>
+                    </div>
+                    <div class="c-modal__body">
+                        <h3>Are you sure you want to quit?</h3>
+                    </div>
+                    <div class="c-modal__footer js-close">
+                        <button type="button" class="c-button c-button--default" onclick="javascript:parent.$.fancybox.close()">Cancel</button>
+                        <button type="button" class="c-button c-button--secondary" onclick="">Quit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Community: marker modal -->
+        <div class="c-modal c-modal--no-fancybox-styling" id="marker-modal">
+            <div class="c-modal__dialog c-modal__dialog--large">
+                <div class="c-modal__content">
+                    <div class="c-modal__header">
+                        <h5 class="title js-marker-name"></h5>
+                        <a class="close js-close">
+                            <i class="fa fa-close"></i>
+                        </a>
+                    </div>
+                    <div class="c-modal__body u-height-300">
+                        <div class="row">
+                            <div class="col-md-5" style="display: none !important;">
+                                <img src="/images/amenities/sports-simulation-lounge.jpg" class="img-fluid js-marker-image">
+                            </div>
+                            <div class="col-md-12">
+                                <p class="js-marker-summary">
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-modal__footer js-close">
+                        <!--<button type="button" class="btn btn-primary">Share This</button>-->
+                        <button type="button" class="c-button c-button--secondary">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Amenities: 01 -->
+        <div class="c-modal c-modal--no-fancybox-styling" id="amenity-01">
+            <div class="c-modal__dialog c-modal__dialog--large">
+                <div class="c-modal__content">
+                    <div class="c-modal__header">
+                        <h5 class="title">Sports Simulation Lounge</h5>
+                        <a class="close" onclick="javascript:parent.$.fancybox.close()">
+                            <i class="fa fa-close"></i>
+                        </a>
+                    </div>
+                    <div class="c-modal__body">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="/images/amenities/sports-simulation-lounge.jpg" alt="Sports Simulation Lounge" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    Jordon Speith, Jim Furyk…and you! Work on your game using the same innovative golf simulator employed
+                                    by top pros. Our Sim Lounge will offer a great spot to relax with neighbors and host guests. Play a
+                                    friendly game of Best Ball or use the ‘laser shot mode’ to test your skills at skeet shooting.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-modal__footer">
+                        <!--<button type="button" class="btn btn-primary">Share This</button>-->
+                        <button type="button" class="c-button c-button--secondary" onclick="javascript:parent.$.fancybox.close()">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Amenities: 02 -->
+        <div class="c-modal c-modal--no-fancybox-styling" id="amenity-02">
+            <div class="c-modal__dialog c-modal__dialog--large">
+                <div class="c-modal__content">
+                    <div class="c-modal__header">
+                        <h5 class="title">Rooftop Pub</h5>
+                        <a class="close" onclick="javascript:parent.$.fancybox.close()">
+                            <i class="fa fa-close"></i>
+                        </a>
+                    </div>
+                    <div class="c-modal__body">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="/images/amenities/rooftop-pub.jpg" alt="Rooftop Pub" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    A 16’ wall slides open to an expansive terrace with breath-taking woodland views.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-modal__footer">
+                        <!--<button type="button" class="btn btn-primary">Share This</button>-->
+                        <button type="button" class="c-button c-button--secondary" onclick="javascript:parent.$.fancybox.close()">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Amenities: 03 -->
+        <div class="c-modal c-modal--no-fancybox-styling" id="amenity-03">
+            <div class="c-modal__dialog c-modal__dialog--large">
+                <div class="c-modal__content">
+                    <div class="c-modal__header">
+                        <h5 class="title">Fitness Center</h5>
+                        <a class="close" onclick="javascript:parent.$.fancybox.close()">
+                            <i class="fa fa-close"></i>
+                        </a>
+                    </div>
+                    <div class="c-modal__body">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="/images/amenities/fitness-center.jpg" alt="Fitness Center" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    4,500 sq. ft. of the latest fitness equipment with a full calendar of classes led by
+                                    kinesiologists who are also available for personal training sessions. Our signature
+                                    Move for Life program is designed to effectively enhance strength, balance, endurance,
+                                    mobility, and coordination.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-modal__footer">
+                        <!--<button type="button" class="btn btn-primary">Share This</button>-->
+                        <button type="button" class="c-button c-button--secondary" onclick="javascript:parent.$.fancybox.close()">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Amenities: 04 -->
+        <div class="c-modal c-modal--no-fancybox-styling" id="amenity-04">
+            <div class="c-modal__dialog c-modal__dialog--large">
+                <div class="c-modal__content">
+                    <div class="c-modal__header">
+                        <h5 class="title">Maker Spaces &amp; Club Rooms</h5>
+                        <a class="close" onclick="javascript:parent.$.fancybox.close()">
+                            <i class="fa fa-close"></i>
+                        </a>
+                    </div>
+                    <div class="c-modal__body">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="/images/amenities/club-rooms.jpg" alt="Maker Spaces &amp; Club Rooms" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    Seven spaces waiting for your fingerprint…we’ve set aside plenty of room to accommodate even the biggest
+                                    imaginations! Need a ‘man cave’ for a weekly poker game…a space to get together with neighbors to tackle
+                                    some Pinterest-inspired crafting…there’s a spot that’s just right for every purpose.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-modal__footer">
+                        <!--<button type="button" class="btn btn-primary">Share This</button>-->
+                        <button type="button" class="c-button c-button--secondary" onclick="javascript:parent.$.fancybox.close()">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Amenities: 05 -->
+        <div class="c-modal c-modal--no-fancybox-styling" id="amenity-05">
+            <div class="c-modal__dialog c-modal__dialog--large">
+                <div class="c-modal__content">
+                    <div class="c-modal__header">
+                        <h5 class="title">Fine Dining</h5>
+                        <a class="close" onclick="javascript:parent.$.fancybox.close()">
+                            <i class="fa fa-close"></i>
+                        </a>
+                    </div>
+                    <div class="c-modal__body">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="/images/amenities/fine-dining.jpg" alt="Fine Dining" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    Our expansive main dining room features three distinctive experiences and a 600 sq. ft.
+                                    terrace for al fresco dining. We’re planning menus built around the latest trends in
+                                    nutrition and cuisine. A flexible dining plan lets you explore the menu as you like:
+                                    whether you’re grabbing a quick snack or hosting guests for lunch or dinner.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-modal__footer">
+                        <!--<button type="button" class="btn btn-primary">Share This</button>-->
+                        <button type="button" class="c-button c-button--secondary" onclick="javascript:parent.$.fancybox.close()">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Amenities: 06 -->
+        <div class="c-modal c-modal--no-fancybox-styling" id="amenity-06">
+            <div class="c-modal__dialog c-modal__dialog--large">
+                <div class="c-modal__content">
+                    <div class="c-modal__header">
+                        <h5 class="title">Entertaining</h5>
+                        <a class="close" onclick="javascript:parent.$.fancybox.close()">
+                            <i class="fa fa-close"></i>
+                        </a>
+                    </div>
+                    <div class="c-modal__body">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="/images/amenities/entertaining.jpg" alt="Entertaining" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    Host guests in your apartment, our dining venues, or, for those occasions when you
+                                    want lots of guests, but not lots of hassles, we’ve created a big space for big celebrations!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-modal__footer">
+                        <!--<button type="button" class="btn btn-primary">Share This</button>-->
+                        <button type="button" class="c-button c-button--secondary" onclick="javascript:parent.$.fancybox.close()">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Amenities: 07 -->
+        <div class="c-modal c-modal--no-fancybox-styling" id="amenity-07">
+            <div class="c-modal__dialog c-modal__dialog--large">
+                <div class="c-modal__content">
+                    <div class="c-modal__header">
+                        <h5 class="title">The Great Outdoors</h5>
+                        <a class="close" onclick="javascript:parent.$.fancybox.close()">
+                            <i class="fa fa-close"></i>
+                        </a>
+                    </div>
+                    <div class="c-modal__body">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="/images/amenities/great-outdoors.jpg" alt="The Great Outdoors" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    Our 25-acre, waterside campus inspired lots of spaces for outdoor living and recreation…a
+                                    fire pit, individual garden plots, pickle ball and bocce courts and a 7/10 mile walking
+                                    trail that connects to the Patriot Trail.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-modal__footer">
+                        <!--<button type="button" class="btn btn-primary">Share This</button>-->
+                        <button type="button" class="c-button c-button--secondary" onclick="javascript:parent.$.fancybox.close()">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Amenities: 08 -->
+        <div class="c-modal c-modal--no-fancybox-styling" id="amenity-08">
+            <div class="c-modal__dialog c-modal__dialog--large">
+                <div class="c-modal__content">
+                    <div class="c-modal__header">
+                        <h5 class="title">Luxury Living</h5>
+                        <a class="close" onclick="javascript:parent.$.fancybox.close()">
+                            <i class="fa fa-close"></i>
+                        </a>
+                    </div>
+                    <div class="c-modal__body">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="/images/amenities/luxury-living.jpg" alt="Luxury Living" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    Housekeeping, porter service, around-the-clock concierge…it won’t take long before you
+                                    won’t remember how you lived any other way.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-modal__footer">
+                        <!--<button type="button" class="btn btn-primary">Share This</button>-->
+                        <button type="button" class="c-button c-button--secondary" onclick="javascript:parent.$.fancybox.close()">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Amenities: 09 -->
+        <div class="c-modal c-modal--no-fancybox-styling" id="amenity-09">
+            <div class="c-modal__dialog c-modal__dialog--large">
+                <div class="c-modal__content">
+                    <div class="c-modal__header">
+                        <h5 class="title">Aging Well</h5>
+                        <a class="close" onclick="javascript:parent.$.fancybox.close()">
+                            <i class="fa fa-close"></i>
+                        </a>
+                    </div>
+                    <div class="c-modal__body">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="/images/amenities/aging-well.jpg" alt="Aging Well" class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <p>
+                                    If maximizing your retirement years is something you aspire to, Echo Lake is custom designed
+                                    for you. Community living is the best way age well. And, should you ever need supportive living, we offer a continuum of care in a sophisticated setting.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-modal__footer">
+                        <!--<button type="button" class="btn btn-primary">Share This</button>-->
+                        <button type="button" class="c-button c-button--secondary" onclick="javascript:parent.$.fancybox.close()">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Framework Javascripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqaPqMK-dKjckD43lTINaPW9g7JmCxmmc"></script>
+
+        <!-- Vendor scripts -->
+        <script src="/vendor/fancybox/jquery.fancybox.min.js"></script>
+
+        <!-- Custom Javascripts -->
+        <script src="/js/bundle.js?v=6"></script>
+
+    </body>
+</html>
