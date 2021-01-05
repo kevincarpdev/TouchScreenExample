@@ -16,7 +16,7 @@
   },
   "browser": {},
   "devDependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "browser-sync": "^2.18.12",
     "browser-sync-webpack-plugin": "^1.2.0",
     "import-glob-loader": "^1.1.0",
