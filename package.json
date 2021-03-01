@@ -30,7 +30,7 @@
     "@fancyapps/fancybox": "3.2.5",
     "contentful": "^5.0.5",
     "npm": "^6.9.0",
-    "three": "^0.89.0",
+    "three": "^0.125.0",
     "vue-router": "^3.0.1",
     "vue-slick": "^1.1.12",
     "vuex": "^3.0.1"
